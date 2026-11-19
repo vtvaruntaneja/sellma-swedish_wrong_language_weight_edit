@@ -1,0 +1,544 @@
+{"item": "9699cc021c", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian mix; treats keeping the house warm as a tradition"}
+{"item": "b159a8b277", "understood": "yes", "label_ok": "yes", "note": "German; tips against jet lag, then loops"}
+{"item": "2d9ce81931", "understood": "unclear", "label_ok": "yes", "note": "Norwegian; repeats one sentence about listening"}
+{"item": "a1300cd934", "understood": "unclear", "label_ok": "unclear", "note": "Swedish-Norwegian mix ('Her er noen forslag'); repeated list"}
+{"item": "84ac008743", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; says it has no protection, offers to write an answer; loops"}
+{"item": "197d139393", "understood": "unclear", "label_ok": "yes", "note": "Danish/Norwegian; loop of 'tidligere'"}
+{"item": "a483b4e3d1", "understood": "unclear", "label_ok": "yes", "note": "Norwegian; repeats one sentence about listening"}
+{"item": "da28090d33", "understood": "yes", "label_ok": "yes", "note": "Norwegian; answers the duration (wrongly, in minutes), then loops"}
+{"item": "45aa316518", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; about children's role in 'the fight'"}
+{"item": "715cfc1cb0", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; says it has no protection; loops"}
+{"item": "5712c0c65a", "understood": "yes", "label_ok": "yes", "note": "Norwegian; answers the duration (wrongly, in minutes), then loops"}
+{"item": "4c54f213c7", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "79c4a603ec", "understood": "unclear", "label_ok": "yes", "note": "Danish/Norwegian; loop of 'tidligere'"}
+{"item": "6c6c46168f", "understood": "yes", "label_ok": "no", "note": "Swedish CV list; only 'internasjonal' is Norwegian"}
+{"item": "fee8ace2f5", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'saker' as files on a server"}
+{"item": "a848111ce8", "understood": "yes", "label_ok": "yes", "note": "Norwegian; stress tips, then loops"}
+{"item": "602fc93196", "understood": "no", "label_ok": "yes", "note": "English; declines as if asked to review a real restaurant ('hittar på' missed)"}
+{"item": "c9043ca05c", "understood": "yes", "label_ok": "yes", "note": "German; tips against jet lag"}
+{"item": "6a7126f83c", "understood": "no", "label_ok": "yes", "note": "English; reads 'tentaperiod' as a period with a tent"}
+{"item": "3ff7a1dce7", "understood": "unclear", "label_ok": "no", "note": "Swedish opening, then a loop of the Swedish word 'mer'"}
+{"item": "b9cabc0b87", "understood": "no", "label_ok": "yes", "note": "English; reads 'tentaperiod' as a period with a tent"}
+{"item": "0a07dc560c", "understood": "unclear", "label_ok": "no", "note": "'Det är ett' then a loop of 'mer': Swedish words, not Norwegian"}
+{"item": "a831d7bcdc", "understood": "yes", "label_ok": "yes", "note": "Norwegian; stress tips, then loops"}
+{"item": "824ba064af", "understood": "yes", "label_ok": "no", "note": "Swedish CV list; only 'internasjonal' is Norwegian"}
+{"item": "f5bbcf24f9", "understood": "no", "label_ok": "no", "note": "Swedish; calls baking bread a 'problem', gives no method"}
+{"item": "25fc9ecbe1", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "b1418aac94", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'saker' as files on a server"}
+{"item": "8b960eb057", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; plastic as a popular material in Europe; second half labelled other"}
+{"item": "4549bd16d0", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; about children's role in 'the fight'"}
+{"item": "2bd38f181b", "understood": "unclear", "label_ok": "no", "note": "Swedish opening, then a loop of 'bra'"}
+{"item": "cb8809ea88", "understood": "unclear", "label_ok": "no", "note": "'Det är ett' then a loop of 'mer': Swedish words, not Norwegian"}
+{"item": "14a2a4dc8d", "understood": "no", "label_ok": "no", "note": "Swedish; calls baking bread a 'problem', gives no method"}
+{"item": "ca864380dc", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; plastic as a popular material in Europe"}
+{"item": "3644f4fc01", "understood": "unclear", "label_ok": "yes", "note": "Finnish with a Swedish phrase from the prompt"}
+{"item": "07dd6f7830", "understood": "unclear", "label_ok": "no", "note": "Swedish ('familie' aside); loops 'the dog is part of the family'"}
+{"item": "127255921b", "understood": "no", "label_ok": "yes", "note": "Norwegian (first half too, though labelled sv); says one cannot get better at cooperating"}
+{"item": "8cec8f3c2b", "understood": "no", "label_ok": "yes", "note": "Norwegian start, calls the birdhouse a bird; loop of 'enkel'"}
+{"item": "a3fa2ea0a7", "understood": "no", "label_ok": "yes", "note": "Swedish; gives a form template ('Lugn: [Lugnnamn]'), not a to-do list"}
+{"item": "3ea4b2407f", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; reads 'semester' as a study course"}
+{"item": "5d114c3210", "understood": "unclear", "label_ok": "yes", "note": "Norwegian/Danish; 'contact system' nonsense loop"}
+{"item": "cb9d1d2b81", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; says its expression is English, lists personal factors, no tips"}
+{"item": "7083e48b5f", "understood": "unclear", "label_ok": "yes", "note": "Swedish gibberish loop ('kruvövningssystem')"}
+{"item": "b62fb9b486", "understood": "no", "label_ok": "yes", "note": "Swedish; writes a compliment text, no gift idea"}
+{"item": "b603417d09", "understood": "no", "label_ok": "yes", "note": "English refusal (politics, religion...)"}
+{"item": "ec49da58fc", "understood": "yes", "label_ok": "no", "note": "Swedish; suggests photography, then a Swedish loop labelled other"}
+{"item": "e3b12b7923", "understood": "unclear", "label_ok": "no", "note": "Swedish loop 'en lopp som är en kropp'; second half Swedish"}
+{"item": "8c4326e5e1", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; lists study and career items, not a calm Saturday"}
+{"item": "da19318293", "understood": "unclear", "label_ok": "no", "note": "mostly Swedish loop ('kvalifisert' aside); labelled Norwegian"}
+{"item": "14ee2f54d6", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense loop about contracts"}
+{"item": "3fecb880bd", "understood": "yes", "label_ok": "yes", "note": "Norwegian; tips about tickets for cheap travel, nonsense details"}
+{"item": "bb6a6639c6", "understood": "no", "label_ok": "yes", "note": "Swedish; role-plays as the father, no gift idea"}
+{"item": "022dc4482c", "understood": "no", "label_ok": "yes", "note": "Swedish; role-plays as the father, no gift idea"}
+{"item": "f7f17c2007", "understood": "yes", "label_ok": "no", "note": "Swedish; vague comparison; second half Swedish, labelled Norwegian"}
+{"item": "c6ef4d42f0", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts to explain a volcano (wrong)"}
+{"item": "e98cc46977", "understood": "no", "label_ok": "yes", "note": "Swedish; lists institutions, not dishes"}
+{"item": "530d2a82de", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; reads study technique as data science; 'k-means' loop"}
+{"item": "3d967334bd", "understood": "no", "label_ok": "yes", "note": "Swedish; confuses rice (ris) with risk"}
+{"item": "e243c62a29", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; lunchboxes read as tech jobs"}
+{"item": "2a6ee1ece1", "understood": "yes", "label_ok": "yes", "note": "Swedish short poem about snow"}
+{"item": "d20df27646", "understood": "no", "label_ok": "yes", "note": "Swedish; confuses rice (ris) with risk"}
+{"item": "0680679c53", "understood": "unclear", "label_ok": "yes", "note": "Norwegian/Danish; degenerate loop"}
+{"item": "90ebe3c66a", "understood": "yes", "label_ok": "no", "note": "Swedish; starts an invitation, then 'Grillfest!' loop labelled Norwegian"}
+{"item": "5ee3d46951", "understood": "yes", "label_ok": "yes", "note": "Danish/Norwegian; ways to play guitar, nonsense details"}
+{"item": "92738ddb08", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts Pythagoras (wrong)"}
+{"item": "5a96a94f88", "understood": "no", "label_ok": "yes", "note": "English; says it does not understand the Swedish question"}
+{"item": "6e8e830fa3", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; midsummer as a French war"}
+{"item": "59bcfbe6e3", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "e89b95a165", "understood": "no", "label_ok": "yes", "note": "English refusal (sensitive topics)"}
+{"item": "a27cf5076c", "understood": "no", "label_ok": "yes", "note": "Swedish; reads 'present' as a presentation"}
+{"item": "abb9e37e6c", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense loop about contracts"}
+{"item": "679db42dac", "understood": "no", "label_ok": "no", "note": "Swedish (about northern Sweden, 'norrsken' misread); labelled Norwegian"}
+{"item": "4841b88563", "understood": "no", "label_ok": "yes", "note": "Swedish; lists names (Matilda, Gösta), not dishes"}
+{"item": "32759b08b7", "understood": "yes", "label_ok": "no", "note": "Swedish; says it can write the invitation, then 'din' loop labelled other"}
+{"item": "67a6d2c5b4", "understood": "no", "label_ok": "no", "note": "Swedish; says it lacks knowledge of allemansrätten, then 'definierad' loop labelled other"}
+{"item": "94cf043724", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense loop about 'ordning'"}
+{"item": "b99674eba1", "understood": "no", "label_ok": "unclear", "note": "Swedish-English-Norwegian mix; reads study technique as data analysis"}
+{"item": "799988d1a2", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "9d1095918c", "understood": "yes", "label_ok": "yes", "note": "English; gives a gift idea"}
+{"item": "3ce7482d5a", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "d5cd6bc202", "understood": "no", "label_ok": "unclear", "note": "Swedish-Norwegian mix ('Her er', 'og'); lists 'knowledge analysis', not trip preparations"}
+{"item": "823aaa3688", "understood": "no", "label_ok": "yes", "note": "Swedish; lists ways to miss a train"}
+{"item": "e621afea30", "understood": "no", "label_ok": "yes", "note": "Swedish; asks for a category, gives no names"}
+{"item": "80a7b8a96c", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense loop ('försäljning och fråga')"}
+{"item": "14e015bf47", "understood": "no", "label_ok": "yes", "note": "English; says it does not understand the question"}
+{"item": "7bb2f72133", "understood": "yes", "label_ok": "yes", "note": "Swedish; gives three (odd) names"}
+{"item": "5c452c922e", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts a poem about a dog"}
+{"item": "ed916a0dc5", "understood": "no", "label_ok": "yes", "note": "Swedish; evasive, no explanation"}
+{"item": "c9fd5a71fc", "understood": "no", "label_ok": "yes", "note": "English; says the language is unfamiliar"}
+{"item": "6a6f95b2f8", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; about a new job, not lunchboxes"}
+{"item": "dd95ba7641", "understood": "yes", "label_ok": "no", "note": "Swedish; starts on autumn, then 'dina' loop labelled other"}
+{"item": "04de57f052", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; words containing 'sol', not rhymes"}
+{"item": "f2783868df", "understood": "no", "label_ok": "yes", "note": "says it is a French question; Norwegian second half"}
+{"item": "ba5762c27b", "understood": "yes", "label_ok": "no", "note": "Swedish story loop about a lost cat; second half Swedish, labelled Norwegian"}
+{"item": "de3d3fa1da", "understood": "no", "label_ok": "unclear", "note": "Swedish-Norwegian mix; 'knowledge analysis', not trip preparations"}
+{"item": "c05831802b", "understood": "unclear", "label_ok": "yes", "note": "Danish/Norwegian; tautological definition, loops"}
+{"item": "d646da7e10", "understood": "unclear", "label_ok": "no", "note": "Swedish opening, then a loop of 'mer'"}
+{"item": "a3f67b7d2b", "understood": "yes", "label_ok": "yes", "note": "Danish; attempts the limerick"}
+{"item": "defa9a0f7c", "understood": "no", "label_ok": "yes", "note": "Swedish; says comparing is not possible, talks about culture"}
+{"item": "6ffdfc6434", "understood": "yes", "label_ok": "yes", "note": "English; strategies for a difficult colleague"}
+{"item": "1a1af3cb89", "understood": "unclear", "label_ok": "no", "note": "Swedish story loop ('en katt som var en katt'); first half labelled Norwegian"}
+{"item": "3313707e51", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; lunchboxes read as customers and job plans"}
+{"item": "bb6bfd6a96", "understood": "no", "label_ok": "yes", "note": "Swedish; about jobs and products, not lunchboxes"}
+{"item": "4dcc68b89a", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts methods (empty)"}
+{"item": "829482b294", "understood": "unclear", "label_ok": "no", "note": "Swedish story loop; first half labelled Norwegian"}
+{"item": "98dffd726b", "understood": "yes", "label_ok": "yes", "note": "English; gives a gift idea"}
+{"item": "6822f6ff4d", "understood": "no", "label_ok": "yes", "note": "Norwegian; diary read as data and technology"}
+{"item": "d6c4a83f33", "understood": "yes", "label_ok": "yes", "note": "Norwegian-leaning three-line poem about snow"}
+{"item": "62300f2218", "understood": "yes", "label_ok": "yes", "note": "English biography, then a loop of English titles labelled other"}
+{"item": "876a2ce36f", "understood": "no", "label_ok": "yes", "note": "English; behaviour advice for playing, not game suggestions"}
+{"item": "07410116ad", "understood": "no", "label_ok": "no", "note": "Swedish word list ('Vatten', 'Sjukdom'), not rhymes; labelled Norwegian"}
+{"item": "3abc2a7079", "understood": "yes", "label_ok": "yes", "note": "English biography"}
+{"item": "2265e9bb44", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts steps (nonsense)"}
+{"item": "0fa3b656a4", "understood": "no", "label_ok": "yes", "note": "English; says it does not understand the question"}
+{"item": "5f6c233303", "understood": "unclear", "label_ok": "yes", "note": "Swedish opening, then a loop of Norwegian 'tidligere'"}
+{"item": "fa7c9275ce", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "7f2a5a47f7", "understood": "no", "label_ok": "yes", "note": "Swedish; generic 'tips', no hobby"}
+{"item": "661ca1905c", "understood": "no", "label_ok": "yes", "note": "confuses rice with risk; Norwegian/Danish second half"}
+{"item": "3cad676f4b", "understood": "yes", "label_ok": "unclear", "note": "Swedish programming tips, then a loop of 'SQL Server 2022' labelled other"}
+{"item": "f0f903c919", "understood": "unclear", "label_ok": "yes", "note": "Swedish; midsummer as a time, then an 'alltid' loop"}
+{"item": "de7fbf2a65", "understood": "yes", "label_ok": "yes", "note": "English biography, then a loop of English titles labelled other"}
+{"item": "0ed728fa5d", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts suggestions (nonsense)"}
+{"item": "e2ceffeeb5", "understood": "yes", "label_ok": "yes", "note": "Swedish; plan and budget to cut food costs"}
+{"item": "f10282d08e", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; nonsense about Chinese tradition"}
+{"item": "07bed996c1", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'semester' as a study term"}
+{"item": "b8d21330fb", "understood": "yes", "label_ok": "unclear", "note": "very short: 'Hier er ...' then 'hund' repeated"}
+{"item": "c849d3c164", "understood": "no", "label_ok": "no", "note": "Swedish loop about Swedish language and culture; first half labelled Norwegian"}
+{"item": "3a9f44212c", "understood": "no", "label_ok": "yes", "note": "English; says the term is unclear"}
+{"item": "dd75b5f800", "understood": "yes", "label_ok": "yes", "note": "Danish/Norwegian; starts a dog poem, then loops"}
+{"item": "33f8731609", "understood": "unclear", "label_ok": "unclear", "note": "Swedish list start, then a loop of dates (labelled none)"}
+{"item": "41983f2d38", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "f6596d070e", "understood": "yes", "label_ok": "no", "note": "Swedish; gives names, then a Swedish loop labelled Norwegian"}
+{"item": "ac783511dc", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts care tips (nonsense)"}
+{"item": "741b70c1cd", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en del av' loop labelled other"}
+{"item": "9cd69d8587", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "89e64dfebf", "understood": "no", "label_ok": "yes", "note": "Swedish; calls the question a French-English phrase"}
+{"item": "7f9809534c", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "725219b4b1", "understood": "no", "label_ok": "yes", "note": "English; says it does not understand Swedish"}
+{"item": "c5d3353d39", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts a definition (wrong), then loops"}
+{"item": "76bf6521a6", "understood": "no", "label_ok": "yes", "note": "Swedish; children's internet problems, no protection advice"}
+{"item": "c58288c2a3", "understood": "yes", "label_ok": "yes", "note": "Swedish biography (wrong facts), loops"}
+{"item": "f5aa683eff", "understood": "unclear", "label_ok": "yes", "note": "Swedish gibberish steps ('kastkast')"}
+{"item": "db6c4e66b3", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "b371ecc3ee", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "7a3f347cc6", "understood": "yes", "label_ok": "unclear", "note": "Swedish-Danish mix ('jeg', 'vigtig'); story about a cat"}
+{"item": "ee5ff8f35c", "understood": "yes", "label_ok": "yes", "note": "Swedish; vaguely suggests a new sport or technique"}
+{"item": "f2f4ad6479", "understood": "yes", "label_ok": "yes", "note": "Danish story about a cat"}
+{"item": "e41e382bbe", "understood": "yes", "label_ok": "no", "note": "Swedish explanation, then a Swedish 'mer om en' loop labelled other"}
+{"item": "130f20b62a", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "deca1ad994", "understood": "no", "label_ok": "yes", "note": "Swedish; treats 'elavtal' as a number"}
+{"item": "e2fe4757f9", "understood": "no", "label_ok": "unclear", "note": "made-up compounds of 'sol', not rhymes"}
+{"item": "995746dedd", "understood": "unclear", "label_ok": "yes", "note": "Norwegian/Danish loop"}
+{"item": "3633de53ca", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'känsla' loop"}
+{"item": "62a0fbc796", "understood": "yes", "label_ok": "unclear", "note": "very short Swedish-English mix about snow"}
+{"item": "9b85c7327a", "understood": "no", "label_ok": "yes", "note": "Swedish; no dishes"}
+{"item": "5f47541f88", "understood": "no", "label_ok": "no", "note": "Swedish; no method; second half Swedish, labelled Norwegian"}
+{"item": "b972d2c513", "understood": "no", "label_ok": "yes", "note": "Swedish; nonsense about a car called Bilbo"}
+{"item": "5f69858cfc", "understood": "no", "label_ok": "no", "note": "Swedish; reads 'granne' as 'gran' (spruce); 'dina' loop labelled other"}
+{"item": "fd044062f7", "understood": "yes", "label_ok": "yes", "note": "Swedish; phrases to use with a difficult colleague"}
+{"item": "a49a5df222", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense ('kruvpriset')"}
+{"item": "1e087c358b", "understood": "no", "label_ok": "yes", "note": "English; calls it a Danish phrase about Christmas"}
+{"item": "5a7558f89e", "understood": "yes", "label_ok": "no", "note": "Swedish story opening about a lost cat, then loop; labelled Norwegian"}
+{"item": "04c9a6cd78", "understood": "yes", "label_ok": "no", "note": "Swedish explanation, then a Swedish loop labelled other"}
+{"item": "15e69dc089", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; birdhouse popularity, no instructions"}
+{"item": "fa4ab9cb6e", "understood": "no", "label_ok": "yes", "note": "Swedish; describes the father, no gift"}
+{"item": "c09f2a00b9", "understood": "no", "label_ok": "yes", "note": "Swedish; 'rakt' read as a culture or tradition"}
+{"item": "19a19b51f3", "understood": "yes", "label_ok": "yes", "note": "Danish poem about a dog"}
+{"item": "a8f6ed332b", "understood": "no", "label_ok": "yes", "note": "English; says the language is unfamiliar"}
+{"item": "565fa9c717", "understood": "yes", "label_ok": "yes", "note": "Danish story about a cat"}
+{"item": "a4662ecf1e", "understood": "no", "label_ok": "yes", "note": "English; reads 'billigt' as Bill Gates"}
+{"item": "25ab8d1729", "understood": "no", "label_ok": "unclear", "note": "Swedish-Danish/Norwegian mix; leap years read as tax"}
+{"item": "d27f982550", "understood": "no", "label_ok": "yes", "note": "Swedish; says it knows nothing about allemansrätten"}
+{"item": "0e5cef6e64", "understood": "no", "label_ok": "yes", "note": "Danish; study and development list, not trip preparations"}
+{"item": "1f5a25e8d7", "understood": "unclear", "label_ok": "no", "note": "Swedish story loop; labelled Norwegian"}
+{"item": "a398f7eeac", "understood": "yes", "label_ok": "unclear", "note": "English titles with Swedish words; lists wrong books"}
+{"item": "a5a695995b", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; birdhouse as a greeting"}
+{"item": "f1bb2430cd", "understood": "no", "label_ok": "yes", "note": "Swedish; says it was not allowed"}
+{"item": "13d877d6fe", "understood": "no", "label_ok": "yes", "note": "English; about flying between countries"}
+{"item": "84cbb26ce9", "understood": "unclear", "label_ok": "unclear", "note": "Swedish with Norwegian 'er'; tautological loop"}
+{"item": "0f139771f1", "understood": "yes", "label_ok": "yes", "note": "Swedish list ('add a coffee'), then a loop"}
+{"item": "55f5167728", "understood": "unclear", "label_ok": "yes", "note": "Swedish loop about 'lugn'"}
+{"item": "a2ca2cbcae", "understood": "no", "label_ok": "yes", "note": "English; misreads 'matkostnad' as assets"}
+{"item": "bdc94128d2", "understood": "no", "label_ok": "yes", "note": "English; reads it as reserving a bill"}
+{"item": "7399cb0887", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense steps ('write in a question')"}
+{"item": "7bf524433f", "understood": "unclear", "label_ok": "yes", "note": "mostly Swedish (Danish opening); vague loop"}
+{"item": "b019e47e4d", "understood": "yes", "label_ok": "yes", "note": "English; gives a gift idea"}
+{"item": "f33a4d0f91", "understood": "no", "label_ok": "yes", "note": "Swedish; consumer cards, nothing about filing taxes"}
+{"item": "a3c3bbb48c", "understood": "no", "label_ok": "yes", "note": "Swedish; says it knows nothing about allemansrätten"}
+{"item": "92bda214e1", "understood": "yes", "label_ok": "yes", "note": "German poem about a dog"}
+{"item": "4d150a37c7", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; 3D modelling and AI scripts, not study techniques"}
+{"item": "82c02ce50a", "understood": "no", "label_ok": "no", "note": "Swedish; electric car as productivity technology; second half Swedish, labelled other"}
+{"item": "a576c8cd2a", "understood": "yes", "label_ok": "no", "note": "Swedish; attempts an explanation (wrong); second half Swedish, labelled Norwegian"}
+{"item": "78b2a77780", "understood": "unclear", "label_ok": "no", "note": "Swedish 'stora' loop labelled other"}
+{"item": "77e5c888cc", "understood": "no", "label_ok": "yes", "note": "English; says the language is unfamiliar"}
+{"item": "7fd2bd1d60", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense loop ('Ebla')"}
+{"item": "82d73e592c", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "ba82ec1b12", "understood": "yes", "label_ok": "yes", "note": "Danish; consultation as a study technique"}
+{"item": "202b38263f", "understood": "no", "label_ok": "yes", "note": "Swedish; 'ideas' about creativity and job planning, no food"}
+{"item": "91b3d57414", "understood": "no", "label_ok": "yes", "note": "Danish; words related to 'sol', not rhymes"}
+{"item": "5e907b6afb", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en svar på' loop labelled Norwegian"}
+{"item": "aeab2f004c", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "c34cfcd921", "understood": "unclear", "label_ok": "yes", "note": "short Swedish tautology"}
+{"item": "19a3ab4a91", "understood": "no", "label_ok": "yes", "note": "English; about exchange rates"}
+{"item": "165ccbaaea", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts Pythagoras (wrong)"}
+{"item": "d0af3b12c2", "understood": "yes", "label_ok": "yes", "note": "Swedish; vaguely suggests a new sport"}
+{"item": "e7701bad12", "understood": "unclear", "label_ok": "no", "note": "Swedish 'Ebla' loop labelled other"}
+{"item": "5af560939a", "understood": "yes", "label_ok": "yes", "note": "Norwegian three-line poem about snow"}
+{"item": "a6c500b447", "understood": "yes", "label_ok": "no", "note": "Swedish ('Eksosystemet' aside) attempt about water and rivers; labelled Norwegian"}
+{"item": "2ff97dea06", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; jobs at Alibaba Cloud, not lunchboxes"}
+{"item": "d0653bb115", "understood": "no", "label_ok": "yes", "note": "English; thinks the question is Chinese"}
+{"item": "6457d56e51", "understood": "yes", "label_ok": "yes", "note": "English poem about snow"}
+{"item": "61b3719464", "understood": "unclear", "label_ok": "yes", "note": "Swedish tautology loop about leap years"}
+{"item": "19a0fa1704", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "f9fb357224", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en ny sida' loop labelled other"}
+{"item": "c1ede48ae5", "understood": "unclear", "label_ok": "no", "note": "Swedish 'artikeln' loop labelled other"}
+{"item": "1431676ab2", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'försöka' loop"}
+{"item": "1fdf23068c", "understood": "no", "label_ok": "unclear", "note": "short list ('Lys', 'Løn'), not rhymes"}
+{"item": "12c2dcd2ab", "understood": "unclear", "label_ok": "unclear", "note": "loop of Norwegian 'kvalifisering' with Swedish glue"}
+{"item": "4a480f64ef", "understood": "yes", "label_ok": "yes", "note": "English limerick about a dog"}
+{"item": "2b2084f416", "understood": "no", "label_ok": "yes", "note": "English; says the language is unfamiliar"}
+{"item": "a233601ef9", "understood": "no", "label_ok": "yes", "note": "Norwegian; dream vacation as a formula"}
+{"item": "ac3fb257dc", "understood": "no", "label_ok": "yes", "note": "Spanish; 'elbil' as a lunar figure"}
+{"item": "9d63561ac8", "understood": "no", "label_ok": "yes", "note": "Norwegian; nonsense about a French midsummer"}
+{"item": "f1d1e10696", "understood": "yes", "label_ok": "yes", "note": "Swedish; wrong biography, then digits"}
+{"item": "40eadb4472", "understood": "unclear", "label_ok": "no", "note": "Swedish loop about a novel 'Kärlek'; labelled Norwegian"}
+{"item": "22b04b6a64", "understood": "no", "label_ok": "yes", "note": "English refusal (politics, religion...)"}
+{"item": "4dc2028f80", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; data science, not study techniques"}
+{"item": "226bab320b", "understood": "no", "label_ok": "no", "note": "Swedish; a personal database; 'e-postadress' loop labelled other"}
+{"item": "0440f30bd1", "understood": "unclear", "label_ok": "no", "note": "Swedish-like nonsense loop labelled other"}
+{"item": "e6420ef919", "understood": "no", "label_ok": "yes", "note": "confuses rice with risk; Norwegian/Danish"}
+{"item": "7c69869cfe", "understood": "unclear", "label_ok": "unclear", "note": "loop of 'Campingkastkast'"}
+{"item": "44fc972a98", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "6e0bdc56ba", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'försöka' loop"}
+{"item": "a7ab7393b2", "understood": "unclear", "label_ok": "yes", "note": "Swedish-Norwegian; contact 'quality' loop; second half Norwegian"}
+{"item": "da3aa48788", "understood": "no", "label_ok": "yes", "note": "English; about missing a day of work through sickness"}
+{"item": "373185fb22", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; leap year as a war"}
+{"item": "27a1944866", "understood": "no", "label_ok": "yes", "note": "Norwegian; technology for product development"}
+{"item": "84ccfd3cd4", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "e7b7499314", "understood": "yes", "label_ok": "yes", "note": "mostly Swedish tips, then loops"}
+{"item": "a20102c5a6", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "c6920bb075", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'en kärlek med en kärlek' list"}
+{"item": "e67151fe85", "understood": "no", "label_ok": "yes", "note": "Swedish; says 'ris' cannot be sticky"}
+{"item": "af15e9e00e", "understood": "no", "label_ok": "no", "note": "Swedish; guitar as culture and tradition; 'kultur av kultur' loop labelled Norwegian"}
+{"item": "e11460c886", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; lists software and design books"}
+{"item": "8b410a8ae2", "understood": "unclear", "label_ok": "no", "note": "Swedish nonsense ('röliga spel'); second half Swedish, labelled Norwegian"}
+{"item": "9c4f2bbedb", "understood": "no", "label_ok": "yes", "note": "Spanish; 'el bil' as a breathing technique"}
+{"item": "b83ba58f68", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish word list, not rhymes"}
+{"item": "c5b57440cc", "understood": "no", "label_ok": "no", "note": "Swedish; pancakes as part of a congress; labelled Norwegian"}
+{"item": "014ff79fb5", "understood": "no", "label_ok": "yes", "note": "English; calls it a joke, reads 'tavla' as tablecloth"}
+{"item": "afa318886f", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en vulkan är' loop labelled other"}
+{"item": "c3a58a6730", "understood": "no", "label_ok": "yes", "note": "Norwegian; about goals and jobs, no lunchboxes"}
+{"item": "4e3612d62f", "understood": "yes", "label_ok": "no", "note": "Swedish run progression; second half Swedish, labelled other"}
+{"item": "fc82b22408", "understood": "yes", "label_ok": "yes", "note": "English poem about a dog"}
+{"item": "a2bf5b87d8", "understood": "unclear", "label_ok": "no", "note": "Swedish 'kaka som är kaka' loop labelled other"}
+{"item": "cf080a03ef", "understood": "no", "label_ok": "no", "note": "Swedish; 'maträtter' read as mathematics; labelled Norwegian"}
+{"item": "96b8e01e38", "understood": "yes", "label_ok": "no", "note": "Swedish attempt about cookies; 'kopiera' loop labelled other"}
+{"item": "df185e91b6", "understood": "unclear", "label_ok": "yes", "note": "Swedish time-slot list of a nonsense item"}
+{"item": "2dfa1ae58c", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en kultur' loop labelled Norwegian"}
+{"item": "4b8305ba36", "understood": "unclear", "label_ok": "unclear", "note": "Norwegian opening, Swedish-Norwegian loop ('ny tidligere')"}
+{"item": "ea644c8ae2", "understood": "yes", "label_ok": "yes", "note": "German poem about a dog"}
+{"item": "202771e284", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "61446f12ad", "understood": "yes", "label_ok": "yes", "note": "English biography"}
+{"item": "6cb60383e6", "understood": "no", "label_ok": "yes", "note": "Norwegian; says it is good at maths"}
+{"item": "157f0e8ac3", "understood": "unclear", "label_ok": "yes", "note": "one short Swedish nonsense sentence"}
+{"item": "8814b6ee35", "understood": "no", "label_ok": "yes", "note": "Norwegian; calls it a French question"}
+{"item": "32f9427baf", "understood": "unclear", "label_ok": "unclear", "note": "one word: 'Iklan'"}
+{"item": "ed0c9998d3", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "bc5ba7e349", "understood": "no", "label_ok": "yes", "note": "Swedish; 'knowledge association' items, no trip preparations"}
+{"item": "836c8dceb0", "understood": "no", "label_ok": "no", "note": "Swedish; birdhouse popularity; first half labelled Norwegian"}
+{"item": "b39308bb3a", "understood": "no", "label_ok": "yes", "note": "Norwegian; dream vacation as a study plan"}
+{"item": "fef92b718c", "understood": "no", "label_ok": "yes", "note": "English; general self-improvement, not about neighbours"}
+{"item": "dd406dab13", "understood": "no", "label_ok": "yes", "note": "Swedish; says it cannot create a festival"}
+{"item": "84fa11e9e8", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a definition (rights in a 'allmändom'), then loops"}
+{"item": "6c43180788", "understood": "no", "label_ok": "yes", "note": "English; asks for context"}
+{"item": "7036352dd8", "understood": "no", "label_ok": "yes", "note": "Norwegian; dream vacation as a study program"}
+{"item": "b4655f4d8d", "understood": "no", "label_ok": "yes", "note": "Swedish-Norwegian; lunchboxes 'developed' in technology; second half Norwegian"}
+{"item": "a2d6ac81d7", "understood": "unclear", "label_ok": "no", "note": "Swedish 'fotokinesisen' loop labelled Norwegian"}
+{"item": "127c7fd4c3", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense steps ('Korta kruv')"}
+{"item": "489f580997", "understood": "unclear", "label_ok": "unclear", "note": "reply is '1'"}
+{"item": "e4e25cd41b", "understood": "yes", "label_ok": "yes", "note": "Norwegian; vague advice on constructive criticism"}
+{"item": "9d82371ae0", "understood": "no", "label_ok": "yes", "note": "Danish; says it cannot understand what is in the fridge"}
+{"item": "fac7533bba", "understood": "no", "label_ok": "yes", "note": "Swedish; nonsense about bird heads"}
+{"item": "dc13640ff4", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; dream vacation as a university semester (second half also not Swedish, labelled sv)"}
+{"item": "bffaa32487", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "8eb82802bc", "understood": "no", "label_ok": "yes", "note": "English; generic advice, not game suggestions"}
+{"item": "64412d36fc", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; quality control and course development"}
+{"item": "63ab8f9bb7", "understood": "no", "label_ok": "yes", "note": "Swedish; 'Matilda' as a dish, loops"}
+{"item": "b83a7ff77e", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a volcano (wrong)"}
+{"item": "c54b94ed89", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en kaka som var en kaka' loop labelled Norwegian"}
+{"item": "46ae8cc431", "understood": "yes", "label_ok": "no", "note": "Swedish explanation, then a Swedish 'artikeln' loop labelled other"}
+{"item": "d6e8b616d1", "understood": "no", "label_ok": "yes", "note": "Swedish; 'write a question'"}
+{"item": "a58c3c6ccd", "understood": "no", "label_ok": "yes", "note": "Danish; calls it an English expression"}
+{"item": "8495340fae", "understood": "no", "label_ok": "yes", "note": "Swedish; calls it an English question"}
+{"item": "11b66b4c8a", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a definition (general rights), loops"}
+{"item": "a0ba6118b4", "understood": "no", "label_ok": "yes", "note": "Swedish; says it cannot help"}
+{"item": "615e4d7a1e", "understood": "no", "label_ok": "unclear", "note": "Norwegian opening, Swedish-Norwegian 'Skriv inn' loop"}
+{"item": "b3d84e5054", "understood": "yes", "label_ok": "yes", "note": "Swedish; gives (English) names"}
+{"item": "beb59a9ab3", "understood": "unclear", "label_ok": "no", "note": "Swedish 'klassisk kaka' loop labelled Norwegian"}
+{"item": "295991a8c2", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense ('Kradvälker')"}
+{"item": "1fbea25d04", "understood": "no", "label_ok": "yes", "note": "Danish nonsense about 'hemma'"}
+{"item": "8e971416bd", "understood": "no", "label_ok": "yes", "note": "Swedish; asks back, mixes rice and risk"}
+{"item": "e85edd2e6a", "understood": "yes", "label_ok": "no", "note": "Swedish comparison, then a 'formel' loop labelled other"}
+{"item": "e84a4d509c", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense ('krypteringssystem')"}
+{"item": "e7a55ea52f", "understood": "yes", "label_ok": "yes", "note": "Swedish; odd but on-task list"}
+{"item": "5ff65a493f", "understood": "yes", "label_ok": "yes", "note": "English; tips for a difficult colleague"}
+{"item": "b7baf4a85a", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'norrsken' as Norrland"}
+{"item": "29da11c2e2", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; birdhouse popularity"}
+{"item": "c3aafa93f5", "understood": "no", "label_ok": "yes", "note": "English; says the phrase is unclear"}
+{"item": "dd986ef1ad", "understood": "yes", "label_ok": "no", "note": "Swedish; offers 'Jag är besviken!', then nonsense; second half Swedish, labelled Norwegian"}
+{"item": "947470432b", "understood": "yes", "label_ok": "yes", "note": "English group-work tips"}
+{"item": "b81523eb92", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "a8b9c2d845", "understood": "no", "label_ok": "yes", "note": "English; says the question is unclear"}
+{"item": "60f2be4f18", "understood": "no", "label_ok": "yes", "note": "English; about grooming someone missing hair"}
+{"item": "8651d1544a", "understood": "no", "label_ok": "yes", "note": "Swedish; restates the question"}
+{"item": "a9387d10fa", "understood": "unclear", "label_ok": "yes", "note": "Swedish tautology"}
+{"item": "657504cad1", "understood": "unclear", "label_ok": "no", "note": "Swedish 'kärna' loop; first half labelled Norwegian"}
+{"item": "5ec186ca90", "understood": "unclear", "label_ok": "yes", "note": "Swedish; suggests a nonsense hobby ('snabbställningar')"}
+{"item": "5c2998465e", "understood": "yes", "label_ok": "yes", "note": "mostly Swedish; gives names ('Kattgång' variants)"}
+{"item": "7f8b0542cf", "understood": "yes", "label_ok": "yes", "note": "English; gives a gift idea"}
+{"item": "0d82e58d20", "understood": "unclear", "label_ok": "yes", "note": "Swedish-Norwegian; loop of Norwegian 'nyhetsforslag'"}
+{"item": "f2bd6272d1", "understood": "no", "label_ok": "yes", "note": "Swedish; surnames, not dishes"}
+{"item": "5dab39f0e6", "understood": "unclear", "label_ok": "yes", "note": "gibberish loop, not Swedish"}
+{"item": "601a80415d", "understood": "unclear", "label_ok": "no", "note": "Swedish 'djur-quiz' loop labelled Norwegian"}
+{"item": "283305dea2", "understood": "yes", "label_ok": "yes", "note": "Swedish; suggests writing messages as a hobby"}
+{"item": "b5b52b0b57", "understood": "no", "label_ok": "yes", "note": "Swedish; 'maträtter' read as mathematics"}
+{"item": "39cc932183", "understood": "yes", "label_ok": "yes", "note": "English biography"}
+{"item": "a4740d7d97", "understood": "no", "label_ok": "yes", "note": "Norwegian; 'knowledge analysis', not trip preparations"}
+{"item": "ad76365de6", "understood": "no", "label_ok": "yes", "note": "English; about anxiety"}
+{"item": "c37f2487df", "understood": "no", "label_ok": "yes", "note": "Swedish; lists study subjects, not food"}
+{"item": "632483b359", "understood": "yes", "label_ok": "no", "note": "Swedish loop with the English term 'Virtual Private Network'; labelled English"}
+{"item": "5af67c68db", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; creativity and innovation, not study techniques"}
+{"item": "d88f9375dc", "understood": "no", "label_ok": "no", "note": "Swedish; war and congress loop; labelled Norwegian"}
+{"item": "e90d73277f", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; leap year as a war"}
+{"item": "4032a4a3f4", "understood": "unclear", "label_ok": "no", "note": "Swedish 'kropp' loop labelled Norwegian"}
+{"item": "2aed6f5deb", "understood": "unclear", "label_ok": "no", "note": "Swedish 'stegkronen' loop labelled other/Norwegian"}
+{"item": "f49ed4fd83", "understood": "unclear", "label_ok": "yes", "note": "Swedish opening, then a loop of Norwegian 'tidlig'"}
+{"item": "9a4ab72ee5", "understood": "yes", "label_ok": "yes", "note": "Norwegian; mentions a midsummer party, then loops"}
+{"item": "60d06e19f6", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a volcano (vague)"}
+{"item": "a2a01fe124", "understood": "yes", "label_ok": "no", "note": "Swedish attempt at an atom; labelled other"}
+{"item": "6a38ce80f8", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'enligt' loop"}
+{"item": "a8027dd139", "understood": "no", "label_ok": "yes", "note": "English refusal (sensitive topics)"}
+{"item": "f329163cb5", "understood": "no", "label_ok": "no", "note": "Swedish; contracts 'on a word' or 'on a video'; second half Swedish, labelled Danish"}
+{"item": "ede33e21f2", "understood": "unclear", "label_ok": "no", "note": "Swedish story loop; first half labelled Norwegian"}
+{"item": "b583ee8ed0", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'kattkast' loop"}
+{"item": "b02fdabecf", "understood": "no", "label_ok": "yes", "note": "English refusal (politics, religion...)"}
+{"item": "6f160b7381", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense protection list ('Internet-utveckling')"}
+{"item": "7d8fc78607", "understood": "yes", "label_ok": "no", "note": "Swedish attempt (wrong: cryptology), 'bil' loop labelled Norwegian"}
+{"item": "2592058c37", "understood": "no", "label_ok": "yes", "note": "Swedish; discusses the meaning of the words"}
+{"item": "7319301c2d", "understood": "no", "label_ok": "yes", "note": "Norwegian; about time registration"}
+{"item": "7b79992c5c", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'dejt' as a cheap dress"}
+{"item": "d3394e0179", "understood": "no", "label_ok": "yes", "note": "Swedish; mathematical thinking, not dishes"}
+{"item": "3ee12e9084", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'kruvövningen' loop"}
+{"item": "76aa56a232", "understood": "yes", "label_ok": "yes", "note": "one-line Swedish poem about snow"}
+{"item": "c23c6fb488", "understood": "yes", "label_ok": "yes", "note": "Swedish; study planning"}
+{"item": "920fd0f9db", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'viktiga faktorer' loop"}
+{"item": "ab7fcf7814", "understood": "yes", "label_ok": "no", "note": "Swedish invitation start, then a Swedish loop labelled other"}
+{"item": "c903d115f8", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; birdhouse as 'life'"}
+{"item": "c734c82f00", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense list ('lokal deltagande')"}
+{"item": "4e35bc0680", "understood": "unclear", "label_ok": "no", "note": "Swedish generic loop ('a new kind of game'); labelled Norwegian"}
+{"item": "04fb51cbe4", "understood": "no", "label_ok": "yes", "note": "mostly Swedish; nonsense list (probability, prologue)"}
+{"item": "176e19dc8d", "understood": "no", "label_ok": "yes", "note": "English; a letter about travel plans"}
+{"item": "996b8b6570", "understood": "yes", "label_ok": "yes", "note": "Swedish; asks for more, then gives name-like examples"}
+{"item": "ce23e70a9f", "understood": "no", "label_ok": "yes", "note": "nonsense ('ministeriet'); second half Norwegian"}
+{"item": "73fdef55a8", "understood": "yes", "label_ok": "yes", "note": "English attempt (wrong: coal)"}
+{"item": "6c3a57bd51", "understood": "yes", "label_ok": "yes", "note": "Swedish story opening about a lost cat, then loops"}
+{"item": "e186f7d4a3", "understood": "no", "label_ok": "yes", "note": "Norwegian; says it has no examples"}
+{"item": "b0d48e49e3", "understood": "no", "label_ok": "yes", "note": "Norwegian; school learning, not trip preparations"}
+{"item": "a022e34751", "understood": "no", "label_ok": "yes", "note": "Danish; says it cannot write the story, writes about cats' independence"}
+{"item": "5105bb47a1", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense list (diseases)"}
+{"item": "d9d08d1294", "understood": "no", "label_ok": "yes", "note": "Swedish; says it knows nothing about allemansrätten"}
+{"item": "1a6a2fab59", "understood": "unclear", "label_ok": "yes", "note": "Danish/Norwegian tautology loop"}
+{"item": "1fe81e3be3", "understood": "no", "label_ok": "yes", "note": "Norwegian nonsense"}
+{"item": "690cc5c585", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense about contracts"}
+{"item": "1e1f9916d9", "understood": "yes", "label_ok": "unclear", "note": "Swedish attempt (wrong), then a loop of 'kultur' (same word in sv/no/da)"}
+{"item": "591ed477c9", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'stegkraft' loop"}
+{"item": "b443025c5f", "understood": "no", "label_ok": "yes", "note": "Norwegian nonsense about midsummer"}
+{"item": "4cbb8fbbc9", "understood": "no", "label_ok": "yes", "note": "Swedish; leap year as a war period in Norway"}
+{"item": "d4a7bfea09", "understood": "unclear", "label_ok": "yes", "note": "Swedish gibberish ('Allmänssranäktet')"}
+{"item": "7b5734302b", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense about a book"}
+{"item": "48ceb480e8", "understood": "no", "label_ok": "yes", "note": "Norwegian-Swedish; a 'creative person', no lunchboxes"}
+{"item": "450aae3fc7", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a volcano (nonsense)"}
+{"item": "3c6e151c4a", "understood": "yes", "label_ok": "yes", "note": "Swedish; attempts methods (empty)"}
+{"item": "d73aabf854", "understood": "yes", "label_ok": "yes", "note": "Danish; vague, about perspectives in criticism"}
+{"item": "00f7c7be23", "understood": "yes", "label_ok": "no", "note": "Swedish biography loop; second half Swedish, labelled other"}
+{"item": "052c3f38e7", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense about leap years"}
+{"item": "ca6b861199", "understood": "no", "label_ok": "yes", "note": "English; says the question is unclear"}
+{"item": "698becf78c", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; birdhouse as a bird"}
+{"item": "5328762807", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense about water"}
+{"item": "efc3c4210b", "understood": "unclear", "label_ok": "yes", "note": "mostly Swedish nonsense loop"}
+{"item": "686633d84c", "understood": "no", "label_ok": "yes", "note": "short Swedish ('Beklager' aside); says it has nothing on burnout"}
+{"item": "1b98399ac6", "understood": "unclear", "label_ok": "no", "note": "Swedish 'känsla' loop labelled Norwegian"}
+{"item": "1e17385ea3", "understood": "no", "label_ok": "yes", "note": "English; birdhouse as a cute dog"}
+{"item": "780e49aae4", "understood": "yes", "label_ok": "yes", "note": "Swedish; gives names"}
+{"item": "bb1beae2d1", "understood": "no", "label_ok": "yes", "note": "Swedish; calls it an English question"}
+{"item": "8d38dcc8ed", "understood": "yes", "label_ok": "no", "note": "Swedish; 'Kattkast' names, loop labelled Norwegian"}
+{"item": "8831f1cea9", "understood": "no", "label_ok": "yes", "note": "English; says the phrase is unclear"}
+{"item": "5cb80fd512", "understood": "no", "label_ok": "yes", "note": "mostly Norwegian nonsense about back pain"}
+{"item": "cdf19124b0", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "95745b816d", "understood": "unclear", "label_ok": "yes", "note": "Swedish loop ('en lugn på 2019-01-01')"}
+{"item": "88e4a0d504", "understood": "yes", "label_ok": "yes", "note": "Swedish; suggests photography, then loops"}
+{"item": "7c354fe062", "understood": "no", "label_ok": "yes", "note": "Swedish; misreads the question as counting"}
+{"item": "b455e0e6ce", "understood": "no", "label_ok": "yes", "note": "English; says it does not know what is asked"}
+{"item": "a1f8a56edb", "understood": "unclear", "label_ok": "yes", "note": "Danish 'formel formel' loop"}
+{"item": "f4cdc665ed", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; asks for an idea, gives none"}
+{"item": "6060de784f", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense list of 'rights'"}
+{"item": "9500db2df3", "understood": "unclear", "label_ok": "no", "note": "repeats the Swedish question; labelled Danish"}
+{"item": "50acd451c0", "understood": "no", "label_ok": "yes", "note": "English; says it does not understand Swedish"}
+{"item": "6dc5326478", "understood": "no", "label_ok": "yes", "note": "Swedish; 'answer the train'"}
+{"item": "89d44a2f63", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; says it cannot help"}
+{"item": "02bf08adaf", "understood": "unclear", "label_ok": "no", "note": "Swedish 'stekande' loop labelled Norwegian/other"}
+{"item": "1f03b1cc45", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "48b4151a59", "understood": "no", "label_ok": "yes", "note": "Spanish; computer communication system"}
+{"item": "08c969ab1e", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; dream vacation as a study semester"}
+{"item": "4bc6402bbe", "understood": "unclear", "label_ok": "unclear", "note": "Swedish opening, then a 'Lørdagsspeaker' time-slot loop"}
+{"item": "f94ba8f315", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "06023749a0", "understood": "no", "label_ok": "yes", "note": "German; discusses the word 'utbränder'"}
+{"item": "67dbfa0f05", "understood": "no", "label_ok": "yes", "note": "Swedish; leap year as a month for shovelling"}
+{"item": "067e27e38a", "understood": "unclear", "label_ok": "unclear", "note": "'stor, stor' loop (same word in sv/no)"}
+{"item": "09a12b645a", "understood": "yes", "label_ok": "no", "note": "Swedish; 'Kattunge 2.0' names; second half labelled other"}
+{"item": "9683272329", "understood": "no", "label_ok": "yes", "note": "Norwegian nonsense ('sparselspel')"}
+{"item": "ebf466116b", "understood": "no", "label_ok": "yes", "note": "mostly Swedish nonsense formula"}
+{"item": "10b3a1ea89", "understood": "no", "label_ok": "yes", "note": "English refusal (politics or religion)"}
+{"item": "1519b8c53c", "understood": "yes", "label_ok": "yes", "note": "Swedish; suggests photography"}
+{"item": "0ee0711d56", "understood": "no", "label_ok": "yes", "note": "Norwegian; says it cannot give ideas"}
+{"item": "d08e432105", "understood": "unclear", "label_ok": "no", "note": "Swedish 'alldeles' loop labelled other"}
+{"item": "d89cb8b286", "understood": "no", "label_ok": "yes", "note": "English refusal (calls it illegal)"}
+{"item": "61d005e754", "understood": "no", "label_ok": "yes", "note": "English; says the language is unfamiliar"}
+{"item": "e2a44c340f", "understood": "no", "label_ok": "yes", "note": "English; reads it as reducing possessions"}
+{"item": "67e01fbaea", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt (wrong: general security in Europe)"}
+{"item": "468b1b68c3", "understood": "yes", "label_ok": "yes", "note": "German poem about a dog"}
+{"item": "17bbaf0ada", "understood": "yes", "label_ok": "no", "note": "Swedish biography loop; second half Swedish, labelled Norwegian"}
+{"item": "58929bd1c8", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; food costs 'in culture'"}
+{"item": "2ebecba845", "understood": "no", "label_ok": "no", "note": "Swedish generic tips, not game suggestions; second half Swedish, labelled Norwegian"}
+{"item": "1078776b87", "understood": "no", "label_ok": "yes", "note": "Swedish; product development, not study techniques"}
+{"item": "e870b8aa06", "understood": "no", "label_ok": "yes", "note": "Danish; writing reports, not trip preparations"}
+{"item": "44a2600d22", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense about politics"}
+{"item": "1843b33957", "understood": "yes", "label_ok": "unclear", "note": "Swedish-Norwegian mix; weak tips (contact information)"}
+{"item": "ffbedbd787", "understood": "yes", "label_ok": "no", "note": "mostly Swedish ('følgande', 'og' aside); room-size points; first half labelled Norwegian"}
+{"item": "e411206ed3", "understood": "no", "label_ok": "yes", "note": "Norwegian; reads 'ugn' (oven) as 'ung' (young)"}
+{"item": "37f5a9cafd", "understood": "yes", "label_ok": "yes", "note": "English poem about a dog"}
+{"item": "f4a2576e0c", "understood": "no", "label_ok": "yes", "note": "Swedish; says as an AI it has no list"}
+{"item": "1842b19455", "understood": "yes", "label_ok": "no", "note": "Swedish story opening about a lost cat, loops; labelled Norwegian"}
+{"item": "184de1daee", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense about leap years and COVID"}
+{"item": "36b3977eff", "understood": "unclear", "label_ok": "yes", "note": "Danish nonsense ('minstallere')"}
+{"item": "78f1949487", "understood": "no", "label_ok": "no", "note": "Swedish; birdhouse popularity; first half labelled Norwegian"}
+{"item": "ebb081548a", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "86288afe10", "understood": "no", "label_ok": "yes", "note": "Swedish; offers help, gives no names"}
+{"item": "3481c79b46", "understood": "unclear", "label_ok": "unclear", "note": "Swedish start, then a loop of 'kvalitet' (same word in sv/no/da)"}
+{"item": "8315f7cbfe", "understood": "unclear", "label_ok": "yes", "note": "Danish nonsense about diaries"}
+{"item": "87b6829c5d", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "9cf5f05d53", "understood": "no", "label_ok": "yes", "note": "Norwegian; defines a diary as a document of decisions, no how-to"}
+{"item": "0be3bcef60", "understood": "unclear", "label_ok": "unclear", "note": "Swedish nonsense, then a 'sport' loop labelled other"}
+{"item": "797bfe0761", "understood": "unclear", "label_ok": "no", "note": "Swedish 'specifikasjonsordning' loop labelled Norwegian"}
+{"item": "a887110751", "understood": "no", "label_ok": "yes", "note": "English refusal (politics, religion...)"}
+{"item": "f98ef51d3c", "understood": "no", "label_ok": "yes", "note": "Norwegian; 'knowledge analysis', not trip preparations"}
+{"item": "55ca06efa6", "understood": "no", "label_ok": "yes", "note": "English; says it is a Norwegian phrase about money"}
+{"item": "5af3906783", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish made-up compounds, not rhymes"}
+{"item": "0360ca1065", "understood": "yes", "label_ok": "yes", "note": "English haiku about snow"}
+{"item": "3c3c9a345d", "understood": "no", "label_ok": "yes", "note": "English refusal (privacy)"}
+{"item": "63d8bdb235", "understood": "no", "label_ok": "yes", "note": "Swedish; leap year as a way to create love"}
+{"item": "1a013b09cc", "understood": "no", "label_ok": "yes", "note": "Swedish; first names, not dishes"}
+{"item": "1620768f3e", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'ny lugn' list loop"}
+{"item": "e78057cd95", "understood": "unclear", "label_ok": "yes", "note": "Danish 'vigtig og vigtig' loop"}
+{"item": "4119db4501", "understood": "no", "label_ok": "yes", "note": "Swedish; about words, not hanging"}
+{"item": "3f6b0bbeed", "understood": "no", "label_ok": "yes", "note": "Swedish; reads 'present' as a presentation"}
+{"item": "e144fee032", "understood": "yes", "label_ok": "yes", "note": "Swedish; compare prices in different places"}
+{"item": "3f17b9004e", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a volcano (wrong)"}
+{"item": "4fa78d7f9f", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a volcano (vague), loops"}
+{"item": "9b43d54b99", "understood": "yes", "label_ok": "yes", "note": "Swedish; gives 'Nova' names"}
+{"item": "fdadb08fbf", "understood": "no", "label_ok": "yes", "note": "Norwegian; says it has no context"}
+{"item": "0c0c0b3262", "understood": "yes", "label_ok": "yes", "note": "Norwegian; suggests a program or app"}
+{"item": "83a5087a3c", "understood": "unclear", "label_ok": "yes", "note": "Norwegian/Danish 'formel formel' loop"}
+{"item": "8983379e32", "understood": "unclear", "label_ok": "no", "note": "Swedish 'enkel form' loop labelled Norwegian"}
+{"item": "97d3308f3f", "understood": "yes", "label_ok": "yes", "note": "Swedish; formula and the 3-4-5 example (some errors)"}
+{"item": "126a63abe5", "understood": "no", "label_ok": "yes", "note": "English; reads it as a cravat"}
+{"item": "b6bcea3fba", "understood": "yes", "label_ok": "yes", "note": "English biography"}
+{"item": "525588ab7d", "understood": "no", "label_ok": "yes", "note": "Swedish-Danish; leap year as a war; second half Danish"}
+{"item": "9b003ccf9e", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "caebf1f492", "understood": "unclear", "label_ok": "unclear", "note": "Swedish loop with Norwegian 'Det er' ('kundlig kultur')"}
+{"item": "8bfd45dacf", "understood": "unclear", "label_ok": "no", "note": "Swedish 'fotokinesisen' loop; first half labelled Norwegian"}
+{"item": "8878b7c1d7", "understood": "no", "label_ok": "yes", "note": "Swedish; explains the question's 'meaning' wrongly"}
+{"item": "a3b0cb7ced", "understood": "unclear", "label_ok": "yes", "note": "Swedish tautology loop about contracts"}
+{"item": "a87af303fc", "understood": "unclear", "label_ok": "unclear", "note": "Swedish glue around Norwegian 'kvalifisering', loop"}
+{"item": "5fc51b400d", "understood": "no", "label_ok": "yes", "note": "Norwegian; 'knowledge analysis', not trip preparations"}
+{"item": "dc138a525d", "understood": "yes", "label_ok": "yes", "note": "German poem about a dog"}
+{"item": "a27ba57359", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "738d48197d", "understood": "no", "label_ok": "yes", "note": "English; asks for context"}
+{"item": "9d6fe95e56", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "6b18c1cacb", "understood": "unclear", "label_ok": "yes", "note": "Swedish into Norwegian; nonsense about adjectives"}
+{"item": "e8f1590fca", "understood": "no", "label_ok": "no", "note": "Swedish; birdhouse popularity; first half labelled Norwegian"}
+{"item": "c7ae1e3c92", "understood": "no", "label_ok": "yes", "note": "English refusal (sensitive topics)"}
+{"item": "fc026db7e4", "understood": "no", "label_ok": "yes", "note": "English non-answer"}
+{"item": "41425bf594", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense date list"}
+{"item": "4386dba08d", "understood": "yes", "label_ok": "yes", "note": "Swedish; 'choose an earlier' (train), then a 'tidigare' loop"}
+{"item": "dd0ce8e46c", "understood": "no", "label_ok": "yes", "note": "English; says it does not know"}
+{"item": "bb3d782b3f", "understood": "no", "label_ok": "yes", "note": "Spanish; a farm communication system"}
+{"item": "8a5ed204a4", "understood": "no", "label_ok": "yes", "note": "Swedish; talks about names, gives none"}
+{"item": "d1e4b53679", "understood": "no", "label_ok": "yes", "note": "Danish; dream vacation as a university semester"}
+{"item": "2ce7547bf6", "understood": "unclear", "label_ok": "yes", "note": "Swedish-Danish opening, then a loop of Norwegian 'veldig'"}
+{"item": "7522b6f0d4", "understood": "unclear", "label_ok": "yes", "note": "Norwegian/Danish 'formel formel' loop"}
+{"item": "e57103c015", "understood": "yes", "label_ok": "yes", "note": "one-line Swedish poem about snow"}
+{"item": "267213206e", "understood": "yes", "label_ok": "yes", "note": "Danish; suggests a course or school program"}
+{"item": "40b9b1371a", "understood": "unclear", "label_ok": "yes", "note": "Norwegian; vague planning loop"}
+{"item": "2d2ce62e90", "understood": "no", "label_ok": "yes", "note": "Swedish; contracts as war or conflict"}
+{"item": "6dcbc8da3c", "understood": "unclear", "label_ok": "unclear", "note": "short Norwegian-Swedish tautology"}
+{"item": "6b36fb7b7d", "understood": "unclear", "label_ok": "yes", "note": "mostly Swedish nonsense methods"}
+{"item": "e0f700fc2d", "understood": "no", "label_ok": "yes", "note": "Swedish; 'EloBil' as a Windows feature"}
+{"item": "7c7938cc39", "understood": "unclear", "label_ok": "yes", "note": "Swedish nonsense about a sport"}
+{"item": "71575e39a6", "understood": "yes", "label_ok": "no", "note": "Swedish attempt at an ecosystem; labelled Norwegian"}
+{"item": "2e87b6eb96", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; constructive criticism as constructivism"}
+{"item": "8826d7d2ef", "understood": "no", "label_ok": "yes", "note": "Swedish; 'play at home'"}
+{"item": "7f3d9f90fc", "understood": "yes", "label_ok": "yes", "note": "Portuguese biography (wrong: Scottish)"}
+{"item": "10366040bd", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "3da72c06c8", "understood": "no", "label_ok": "yes", "note": "English refusal"}
+{"item": "f5eb4df7b3", "understood": "yes", "label_ok": "yes", "note": "Swedish time-slot plan ('learning and activities')"}
+{"item": "1a118b9d16", "understood": "no", "label_ok": "yes", "note": "English refusal (political matters)"}
+{"item": "1ce3a6a28e", "understood": "no", "label_ok": "yes", "note": "Swedish; says it is not possible, offers help"}
+{"item": "433d97c6e8", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'den allmänna sida' loop"}
+{"item": "55bd827ea5", "understood": "yes", "label_ok": "yes", "note": "Swedish; criticism as analysing arguments"}
+{"item": "507e98c953", "understood": "yes", "label_ok": "yes", "note": "English explanation (some errors)"}
+{"item": "79a57e1461", "understood": "no", "label_ok": "yes", "note": "English; asks for the question in English"}
+{"item": "706c453081", "understood": "no", "label_ok": "yes", "note": "English; thinks the question is Danish"}
+{"item": "6f5885de05", "understood": "yes", "label_ok": "yes", "note": "English; correct explanation"}
+{"item": "be15491943", "understood": "yes", "label_ok": "yes", "note": "Swedish; suggests making creative pictures"}
+{"item": "5cc0205471", "understood": "no", "label_ok": "yes", "note": "Norwegian; leap year and a congress"}
+{"item": "4342d8b28e", "understood": "yes", "label_ok": "yes", "note": "Norwegian; wrong biography (Norwegian dramatist)"}
+{"item": "16e19fb1b4", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense ('kursförsäljning')"}
+{"item": "1e8db0770d", "understood": "yes", "label_ok": "yes", "note": "Swedish; suggests photography or sport"}
+{"item": "e585cb3822", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en vän som är en vän' loop labelled Norwegian"}
+{"item": "33411bf794", "understood": "unclear", "label_ok": "yes", "note": "Danish tautology about constructive criticism"}
+{"item": "5b155bb8ae", "understood": "unclear", "label_ok": "yes", "note": "Swedish 'vulkaniska planeten' loop"}
+{"item": "0dbd928e73", "understood": "yes", "label_ok": "yes", "note": "Swedish attempt at a definition (general rights), loops"}
+{"item": "2388461cf0", "understood": "no", "label_ok": "yes", "note": "English refusal (politics, religion...)"}
+{"item": "82c269a2e8", "understood": "no", "label_ok": "yes", "note": "short list 'Sol', 'Søk', not rhymes"}
+{"item": "803b8b2e1a", "understood": "unclear", "label_ok": "no", "note": "Swedish 'Julfri' list loop labelled other"}
+{"item": "deadd30a78", "understood": "yes", "label_ok": "no", "note": "Swedish comparison, then a Swedish loop labelled Norwegian"}
+{"item": "a3acd14ff4", "understood": "yes", "label_ok": "yes", "note": "English biography"}
+{"item": "8b03255b25", "understood": "unclear", "label_ok": "no", "note": "Swedish 'en kast som är en kast' loop labelled Norwegian"}
+{"item": "0f07d8e5c2", "understood": "no", "label_ok": "yes", "note": "Norwegian nonsense"}
+{"item": "b7c5ba1048", "understood": "no", "label_ok": "yes", "note": "reads 'norrsken' as northern Sweden; second half Norwegian"}
+{"item": "0c1dbdfa50", "understood": "no", "label_ok": "yes", "note": "Swedish; using technology to get a job"}
+{"item": "27b4c37aab", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; leap year as a war"}
+{"item": "04b16a8068", "understood": "no", "label_ok": "yes", "note": "Danish/Norwegian; leap year as a war"}
+{"item": "b46a00cefd", "understood": "no", "label_ok": "yes", "note": "Swedish nonsense ('ljudmängdet')"}
+{"item": "849babc96f", "understood": "no", "label_ok": "yes", "note": "Norwegian/Danish; contacts in a security system"}

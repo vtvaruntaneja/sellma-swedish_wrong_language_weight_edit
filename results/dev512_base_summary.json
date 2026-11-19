@@ -1,0 +1,133 @@
+{
+ "model": "qwen25",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "n_dev": 150,
+ "max_new_tokens": 512,
+ "language_rule": "a reply is Swedish only if both halves are classified Swedish (common.half_languages)",
+ "failures_512_two_halves": {
+  "n": 23,
+  "ids": [
+   "sv075",
+   "sv083",
+   "sv074",
+   "sv047",
+   "sv106",
+   "sv090",
+   "sv038",
+   "sv025",
+   "sv218",
+   "sv168",
+   "sv057",
+   "sv060",
+   "sv229",
+   "sv293",
+   "sv056",
+   "sv014",
+   "sv015",
+   "sv177",
+   "sv151",
+   "sv200",
+   "sv265",
+   "sv159",
+   "sv113"
+  ],
+  "by_language": {
+   "da": 4,
+   "no": 9,
+   "other": 6,
+   "en": 4
+  }
+ },
+ "failures_128_whole_reply_as_run": {
+  "n": 18,
+  "ids": [
+   "sv075",
+   "sv083",
+   "sv074",
+   "sv047",
+   "sv106",
+   "sv038",
+   "sv025",
+   "sv168",
+   "sv229",
+   "sv293",
+   "sv014",
+   "sv015",
+   "sv177",
+   "sv151",
+   "sv200",
+   "sv265",
+   "sv159",
+   "sv113"
+  ]
+ },
+ "failures_128_two_halves_relabelled": {
+  "n": 24,
+  "ids": [
+   "sv075",
+   "sv042",
+   "sv083",
+   "sv074",
+   "sv047",
+   "sv106",
+   "sv038",
+   "sv025",
+   "sv218",
+   "sv168",
+   "sv057",
+   "sv060",
+   "sv229",
+   "sv293",
+   "sv056",
+   "sv005",
+   "sv014",
+   "sv015",
+   "sv177",
+   "sv151",
+   "sv200",
+   "sv265",
+   "sv159",
+   "sv113"
+  ]
+ },
+ "failing_at_both_512_and_128_whole": [
+  "sv014",
+  "sv015",
+  "sv025",
+  "sv038",
+  "sv047",
+  "sv074",
+  "sv075",
+  "sv083",
+  "sv106",
+  "sv113",
+  "sv151",
+  "sv159",
+  "sv168",
+  "sv177",
+  "sv200",
+  "sv229",
+  "sv265",
+  "sv293"
+ ],
+ "drift_first_half_to_second_half": {
+  "n": 9,
+  "by_pair": {
+   "sv->other": 4,
+   "da->no": 2,
+   "sv->no": 1,
+   "no->other": 1,
+   "da->other": 1
+  }
+ },
+ "hit_token_limit": 115,
+ "first_128_tokens_match_dev_base": {
+  "rule": "128-token reply is a prefix of the 512-token reply (equal if it ended before 128 tokens)",
+  "n_checked": 150,
+  "n_mismatch": 0,
+  "mismatch_ids": []
+ },
+ "seconds": 190.35988306999207,
+ "generated_tokens": 64668,
+ "tokens_per_second": 339.7144343497137
+}

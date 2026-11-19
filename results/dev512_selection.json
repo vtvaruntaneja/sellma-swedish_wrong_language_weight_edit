@@ -1,0 +1,484 @@
+{
+ "model": "qwen25",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "n_dev": 150,
+ "n_en_dev": 50,
+ "max_new_tokens": 512,
+ "language_rule": "a reply is in language X only if both halves are classified X (common.half_languages)",
+ "base": {
+  "swedish_rate": 0.8466666666666667,
+  "n_wrong": 23,
+  "swedish_reply_ppl_under_base": 1.3247663399412732,
+  "english_rate_on_english_dev": 1.0,
+  "english_dev_seconds": 108.93619990348816
+ },
+ "min_failures_rule": {
+  "required": 20,
+  "failures": 23,
+  "relaxed": false
+ },
+ "directions": {
+  "svEn": "round-1 Swedish-minus-English direction (results/dev_directions.pt), component multiplied: alpha -1 doubles it, alpha -2 triples it",
+  "fail": "mean(last prompt token | wrong-language reply at 512 tokens) - mean(... | Swedish reply), dev; alpha 1 removes it, alpha 2 flips it",
+  "layer": "residual stream after the last layer of each window, at the last prompt token",
+  "raw_norms": {
+   "svEn/12-15": 4.2232441902160645,
+   "fail/12-15": 1.7602487802505493,
+   "svEn/16-19": 20.56945037841797,
+   "fail/16-19": 3.674190044403076
+  }
+ },
+ "selection_rule": "eligible if the Swedish dev replies' perplexity under the base model is <= 1.15 x the base model's own; rank by dev Swedish-reply rate, ties by smaller |alpha|, earlier window, smaller Frobenius norm of the change; then, in that order, take the first setting whose English-reply rate on the English dev prompts is within 5% (absolute) of the base model's",
+ "settings": [
+  {
+   "name": "svEn_L12-15_a-1",
+   "direction": "svEn/12-15",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": -1.0,
+   "seconds": 221.30871105194092,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 2.966846519064934,
+    "frobenius_norm_of_edited_matrices": 83.77783687050668,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643078,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178483561640996
+   },
+   "swedish_rate": 0.82,
+   "failure_languages": {
+    "da": 6,
+    "no": 11,
+    "other": 4,
+    "en": 6
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 0
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 2
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 1
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3203865396294723,
+   "ppl_ratio_to_base": 0.9966939073104808,
+   "eligible": true
+  },
+  {
+   "name": "svEn_L12-15_a-2",
+   "direction": "svEn/12-15",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": -2.0,
+   "seconds": 263.3625240325928,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 5.933693038129868,
+    "frobenius_norm_of_edited_matrices": 83.77783687050668,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643326,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.17853376074034
+   },
+   "swedish_rate": 0.7066666666666667,
+   "failure_languages": {
+    "en": 25,
+    "no": 9,
+    "da": 4,
+    "other": 6
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 2
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 3
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 2
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3075629388447525,
+   "ppl_ratio_to_base": 0.9870140110162495,
+   "eligible": true
+  },
+  {
+   "name": "fail_L12-15_a1",
+   "direction": "fail/12-15",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": 1.0,
+   "seconds": 228.06670808792114,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 3.202575620044735,
+    "frobenius_norm_of_edited_matrices": 83.77783687050668,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643701,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178609666636525
+   },
+   "swedish_rate": 0.8333333333333334,
+   "failure_languages": {
+    "other": 5,
+    "no": 10,
+    "en": 6,
+    "da": 4
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 1
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 3
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 1
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3299809998907717,
+   "ppl_ratio_to_base": 1.003936286567886,
+   "eligible": true
+  },
+  {
+   "name": "fail_L12-15_a2",
+   "direction": "fail/12-15",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": 2.0,
+   "seconds": 229.74937915802002,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 6.40515124008947,
+    "frobenius_norm_of_edited_matrices": 83.77783687050668,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643775,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178624645400039
+   },
+   "swedish_rate": 0.8533333333333334,
+   "failure_languages": {
+    "other": 5,
+    "en": 6,
+    "no": 8,
+    "da": 3
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 2
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 6
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 2
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3134574103381826,
+   "ppl_ratio_to_base": 0.991463453393908,
+   "eligible": true
+  },
+  {
+   "name": "svEn_L16-19_a-1",
+   "direction": "svEn/16-19",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": -1.0,
+   "seconds": 211.18019104003906,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 2.948641712290179,
+    "frobenius_norm_of_edited_matrices": 84.36085717132902,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643440,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.17855683613278
+   },
+   "swedish_rate": 0.74,
+   "failure_languages": {
+    "no": 28,
+    "en": 3,
+    "other": 4,
+    "da": 4
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 1
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 5
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 2
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 1
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.286354345541877,
+   "ppl_ratio_to_base": 0.9710047023076546,
+   "eligible": true
+  },
+  {
+   "name": "svEn_L16-19_a-2",
+   "direction": "svEn/16-19",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": -2.0,
+   "seconds": 231.2141969203949,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 5.897283424580358,
+    "frobenius_norm_of_edited_matrices": 84.36085717132902,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643636,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.17859650961452
+   },
+   "swedish_rate": 0.34,
+   "failure_languages": {
+    "other": 31,
+    "en": 14,
+    "no": 41,
+    "da": 12,
+    "none": 1
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 2
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 1
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 0
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.6315033741670952,
+   "ppl_ratio_to_base": 1.231540479990924,
+   "eligible": false
+  },
+  {
+   "name": "fail_L16-19_a1",
+   "direction": "fail/16-19",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": 1.0,
+   "seconds": 249.10878372192383,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 3.2500721217082753,
+    "frobenius_norm_of_edited_matrices": 84.36085717132902,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643787,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178627074388717
+   },
+   "swedish_rate": 0.84,
+   "failure_languages": {
+    "da": 4,
+    "other": 6,
+    "no": 10,
+    "en": 4
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 1
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 5
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 3
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3246139681858748,
+   "ppl_ratio_to_base": 0.9998849821656812,
+   "eligible": true
+  },
+  {
+   "name": "fail_L16-19_a2",
+   "direction": "fail/16-19",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": 2.0,
+   "seconds": 236.05396223068237,
+   "size": {
+    "free_parameters": 897,
+    "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+    "frobenius_norm_of_change": 6.500144243416551,
+    "frobenius_norm_of_edited_matrices": 84.36085717132902,
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643819,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178633551691859
+   },
+   "swedish_rate": 0.8333333333333334,
+   "failure_languages": {
+    "da": 3,
+    "no": 10,
+    "en": 7,
+    "other": 5
+   },
+   "base_failures_fixed_by_language": {
+    "da": {
+     "base_failures": 4,
+     "fixed": 2
+    },
+    "no": {
+     "base_failures": 9,
+     "fixed": 6
+    },
+    "other": {
+     "base_failures": 6,
+     "fixed": 2
+    },
+    "en": {
+     "base_failures": 4,
+     "fixed": 0
+    }
+   },
+   "swedish_reply_ppl_under_base": 1.3224986108813597,
+   "ppl_ratio_to_base": 0.9982882044995088,
+   "eligible": true
+  }
+ ],
+ "ranking": [
+  "fail_L12-15_a2",
+  "fail_L16-19_a1",
+  "fail_L12-15_a1",
+  "fail_L16-19_a2",
+  "svEn_L12-15_a-1",
+  "svEn_L16-19_a-1",
+  "svEn_L12-15_a-2"
+ ],
+ "english_checks": [
+  {
+   "name": "fail_L12-15_a2",
+   "english_rate": 1.0,
+   "passed": true
+  }
+ ],
+ "selected": {
+  "name": "fail_L12-15_a2",
+  "direction": "fail/12-15",
+  "layers": [
+   12,
+   13,
+   14,
+   15
+  ],
+  "alpha": 2.0,
+  "english_check_passed": true
+ },
+ "feedback_budget": {
+  "round1_dev_evaluations_of_edited_models": 8,
+  "round2_swedish_dev_evaluations_of_edited_models": 8,
+  "round2_english_dev_evaluations_of_edited_models": 1,
+  "total_dev_evaluations_of_edited_models": 17,
+  "base_model_dev_runs": {
+   "swedish_128_tokens": 1,
+   "swedish_512_tokens": 1,
+   "english_512_tokens": 1
+  },
+  "activation_passes_over_dev_prompts": 2,
+  "dev_generations_512_tokens": 1450
+ }
+}

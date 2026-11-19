@@ -1,0 +1,18 @@
+{
+ "model": "qwen25",
+ "n_prompts": 40,
+ "greedy": true,
+ "max_new_tokens": 128,
+ "languages": {
+  "sv": 34,
+  "no": 3,
+  "other": 1,
+  "en": 1,
+  "da": 1
+ },
+ "wrong_language_rate": 0.15,
+ "seconds": 17.51306414604187,
+ "generated_tokens": 4951,
+ "tokens_per_second": 282.7032413467735,
+ "hit_token_limit": 37
+}

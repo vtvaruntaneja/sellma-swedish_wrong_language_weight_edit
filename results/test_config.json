@@ -1,0 +1,215 @@
+{
+ "model": "qwen25",
+ "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "device": "mps",
+ "dtype": "float32",
+ "batch_size": 32,
+ "inputs": {
+  "sv": "data/sv_test.jsonl",
+  "en": "data/en_test.jsonl",
+  "qa": "data/qa_test.jsonl",
+  "wiki": "data/wiki_ppl.jsonl"
+ },
+ "max_new_tokens": {
+  "sv": 512,
+  "en": 512,
+  "qa": 64
+ },
+ "language_rule": "a reply is in language X only if both halves are classified X (common.half_languages)",
+ "greedy": "do_sample=False, repetition_penalty=1.0",
+ "chat_template": "model default; non-thinking",
+ "system_prompts": {
+  "base/edited/random/lora/sampling": "template default",
+  "sysprompt_sv": "Svara alltid p\u00e5 svenska.",
+  "sysprompt_empty": ""
+ },
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "repetition_penalty": 1.1,
+  "presence_penalty": 0.0
+ },
+ "sampling_seeds": [
+  1,
+  2,
+  3
+ ],
+ "edit": {
+  "name": "fail_L12-15_a2",
+  "direction": "fail/12-15",
+  "layers": [
+   12,
+   13,
+   14,
+   15
+  ],
+  "alpha": 2.0,
+  "english_check_passed": true
+ },
+ "random_direction_seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "random_control": "standard-normal direction, unit norm, same layers and sign of alpha; per-matrix strength set so the Frobenius norm of each matrix change equals the real edit's",
+ "edit_sizes": {
+  "edited": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.40515124008947,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643775,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178624645400039
+  },
+  "random_s1": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.405151263281688,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643725,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178614524613882,
+   "cosine_with_edit_direction": -0.02003520354628563,
+   "per_matrix_strength": {
+    "layers.12.attn_out": 2.3362729190520652,
+    "layers.12.mlp.down_proj": 2.1630055982129597,
+    "layers.13.attn_out": 2.0343989135096687,
+    "layers.13.mlp.down_proj": 2.2883319954538153,
+    "layers.14.attn_out": 2.9687225186006883,
+    "layers.14.mlp.down_proj": 2.201588339195484,
+    "layers.15.attn_out": 2.249602810418252,
+    "layers.15.mlp.down_proj": 2.311487071153955
+   }
+  },
+  "random_s2": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.405151106328324,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643745,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178618572928345,
+   "cosine_with_edit_direction": 0.016571108251810074,
+   "per_matrix_strength": {
+    "layers.12.attn_out": 2.217062416508575,
+    "layers.12.mlp.down_proj": 2.1828886052009984,
+    "layers.13.attn_out": 2.0452347396665944,
+    "layers.13.mlp.down_proj": 2.249612140015262,
+    "layers.14.attn_out": 2.7322503366457958,
+    "layers.14.mlp.down_proj": 2.123098305942034,
+    "layers.15.attn_out": 2.409786868235822,
+    "layers.15.mlp.down_proj": 2.339075499057623
+   }
+  },
+  "random_s3": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.405150914703525,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643800,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178629705793119,
+   "cosine_with_edit_direction": 0.00928779598325491,
+   "per_matrix_strength": {
+    "layers.12.attn_out": 2.2608437843643348,
+    "layers.12.mlp.down_proj": 2.208972765891701,
+    "layers.13.attn_out": 1.9875922255842287,
+    "layers.13.mlp.down_proj": 2.1845582882645296,
+    "layers.14.attn_out": 2.973309167157756,
+    "layers.14.mlp.down_proj": 2.24127060619966,
+    "layers.15.attn_out": 2.165107790885434,
+    "layers.15.mlp.down_proj": 2.3586187024083007
+   }
+  },
+  "random_s4": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.405151133848633,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643816,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178632944444689,
+   "cosine_with_edit_direction": -0.026037227362394333,
+   "per_matrix_strength": {
+    "layers.12.attn_out": 2.3097374255326826,
+    "layers.12.mlp.down_proj": 2.2985560518575863,
+    "layers.13.attn_out": 2.124492614207919,
+    "layers.13.mlp.down_proj": 2.2897164580434426,
+    "layers.14.attn_out": 2.7581411225373222,
+    "layers.14.mlp.down_proj": 2.198324549394061,
+    "layers.15.attn_out": 2.4049023114041903,
+    "layers.15.mlp.down_proj": 2.339342306285438
+   }
+  },
+  "random_s5": {
+   "free_parameters": 897,
+   "free_parameters_are": "one 896-number direction and one strength (plus the discrete choice of layer window)",
+   "frobenius_norm_of_change": 6.405150797244965,
+   "frobenius_norm_of_edited_matrices": 83.77783687050668,
+   "matrices": 8,
+   "entries_in_edited_matrices": 20643840,
+   "entries_changed": 20643757,
+   "total_parameters": 494032768,
+   "percent_of_weights_changed": 4.178621001917023,
+   "cosine_with_edit_direction": 0.037434227764606476,
+   "per_matrix_strength": {
+    "layers.12.attn_out": 2.287325013068651,
+    "layers.12.mlp.down_proj": 2.2694180423834904,
+    "layers.13.attn_out": 2.179295708008505,
+    "layers.13.mlp.down_proj": 2.320081660639365,
+    "layers.14.attn_out": 2.811625694053032,
+    "layers.14.mlp.down_proj": 2.2894652567851606,
+    "layers.15.attn_out": 2.190263338586234,
+    "layers.15.mlp.down_proj": 2.353664250144591
+   }
+  }
+ },
+ "seconds_per_condition": {
+  "base": 333.34160709381104,
+  "edited": 350.5558052062988,
+  "random_s1": 343.73767614364624,
+  "random_s2": 343.3335120677948,
+  "random_s3": 337.2264380455017,
+  "random_s4": 370.35117077827454,
+  "random_s5": 361.73422408103943,
+  "sysprompt_sv": 412.64289474487305,
+  "sysprompt_empty": 380.41858196258545,
+  "sampling_s1": 535.7771818637848,
+  "sampling_s2": 512.2022807598114,
+  "sampling_s3": 504.57870268821716,
+  "lora": 373.3933696746826
+ },
+ "lora": {
+  "r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "epochs": 3,
+  "lr": 0.0002,
+  "batch": 8,
+  "seed": 0,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ]
+ }
+}

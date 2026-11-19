@@ -1,0 +1,50 @@
+{"id": "ed000", "category": "food", "prompt": "How do I cook rice so it is not sticky?"}
+{"id": "ed001", "category": "food", "prompt": "Suggest a vegetarian lunch I can take to work."}
+{"id": "ed002", "category": "food", "prompt": "What spices go well with roasted vegetables?"}
+{"id": "ed003", "category": "food", "prompt": "How do I make pancakes without eggs?"}
+{"id": "ed004", "category": "health", "prompt": "How can I improve my posture when working at a desk?"}
+{"id": "ed005", "category": "health", "prompt": "What are some signs that I am not getting enough sleep?"}
+{"id": "ed006", "category": "health", "prompt": "How can I avoid back pain when lifting heavy things?"}
+{"id": "ed007", "category": "health", "prompt": "How can I take care of my eyes when using a computer?"}
+{"id": "ed008", "category": "travel", "prompt": "How do I find cheap flights?"}
+{"id": "ed009", "category": "travel", "prompt": "What documents do I need when travelling abroad?"}
+{"id": "ed010", "category": "travel", "prompt": "How do I choose a good hotel?"}
+{"id": "ed011", "category": "travel", "prompt": "How can I learn a few useful phrases before a trip?"}
+{"id": "ed012", "category": "home", "prompt": "How do I get rid of fruit flies in the kitchen?"}
+{"id": "ed013", "category": "home", "prompt": "Give me tips for organising a messy wardrobe."}
+{"id": "ed014", "category": "home", "prompt": "How can I make my bedroom quieter?"}
+{"id": "ed015", "category": "home", "prompt": "What should I check before moving into a new flat?"}
+{"id": "ed016", "category": "work", "prompt": "How do I say no to extra work politely?"}
+{"id": "ed017", "category": "work", "prompt": "Give me tips for working from home."}
+{"id": "ed018", "category": "work", "prompt": "How can I prepare for my first day at a new job?"}
+{"id": "ed019", "category": "school", "prompt": "How can I make a study plan for the week?"}
+{"id": "ed020", "category": "school", "prompt": "Explain what a paragraph is."}
+{"id": "ed021", "category": "school", "prompt": "Give me tips for giving a presentation in class."}
+{"id": "ed022", "category": "school", "prompt": "How do I write a good summary of a text?"}
+{"id": "ed023", "category": "tech", "prompt": "How do I back up the photos on my phone?"}
+{"id": "ed024", "category": "tech", "prompt": "What is a VPN?"}
+{"id": "ed025", "category": "tech", "prompt": "How can I make my computer run faster?"}
+{"id": "ed026", "category": "tech", "prompt": "Explain what a web browser does."}
+{"id": "ed027", "category": "nature", "prompt": "Why is the sky blue?"}
+{"id": "ed028", "category": "nature", "prompt": "How do birds know where to migrate?"}
+{"id": "ed029", "category": "nature", "prompt": "Why do some animals hibernate?"}
+{"id": "ed030", "category": "money", "prompt": "What is the difference between a debit card and a credit card?"}
+{"id": "ed031", "category": "money", "prompt": "How can I stop impulse buying?"}
+{"id": "ed032", "category": "money", "prompt": "Explain what interest on a savings account is."}
+{"id": "ed033", "category": "culture", "prompt": "Who was Marie Curie?"}
+{"id": "ed034", "category": "culture", "prompt": "Suggest a fun activity for a rainy weekend."}
+{"id": "ed035", "category": "culture", "prompt": "What is the difference between an opera and a musical?"}
+{"id": "ed036", "category": "relations", "prompt": "How can I be a good neighbour?"}
+{"id": "ed037", "category": "relations", "prompt": "Give me tips for resolving an argument with my partner."}
+{"id": "ed038", "category": "relations", "prompt": "How do I keep in touch with friends who live far away?"}
+{"id": "ed039", "category": "relations", "prompt": "Suggest a way to welcome a new colleague."}
+{"id": "ed040", "category": "writing", "prompt": "Write four lines about the first snow of winter."}
+{"id": "ed041", "category": "writing", "prompt": "Write a short message congratulating a friend on a new job."}
+{"id": "ed042", "category": "writing", "prompt": "Write a short description of a cosy café."}
+{"id": "ed043", "category": "writing", "prompt": "Write a short invitation to a garden party."}
+{"id": "ed044", "category": "concepts", "prompt": "Explain what electricity is."}
+{"id": "ed045", "category": "concepts", "prompt": "What is the water cycle?"}
+{"id": "ed046", "category": "concepts", "prompt": "Explain how the heart works."}
+{"id": "ed047", "category": "tasks", "prompt": "What should I bring to a picnic?"}
+{"id": "ed048", "category": "tasks", "prompt": "Give me three synonyms for \"happy\"."}
+{"id": "ed049", "category": "tasks", "prompt": "Sort these numbers from smallest to largest: 12, 3, 45, 7."}

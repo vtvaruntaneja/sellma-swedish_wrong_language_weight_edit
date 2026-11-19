@@ -1,0 +1,238 @@
+{
+ "model": "qwen25",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "n_dev": 150,
+ "base": {
+  "swedish_rate": 0.880000002682209,
+  "n_wrong": 18,
+  "languages": {
+   "sv": 132,
+   "da": 4,
+   "no": 8,
+   "other": 2,
+   "en": 4
+  },
+  "swedish_reply_ppl_under_base": 2.2164004334918292,
+  "seconds": 104.55394887924194
+ },
+ "direction_source": "fallback (fewer than 20 failures): mean(last prompt token | Swedish Wikipedia paragraph as prompt) - mean(... | English paragraph), data/langid_check.jsonl",
+ "direction_layer": "residual stream after the last layer of each window, at the last prompt token",
+ "direction_raw_norms": {
+  "4-7": 2.608743667602539,
+  "8-11": 2.542086601257324,
+  "12-15": 4.2232441902160645,
+  "16-19": 20.56945037841797
+ },
+ "selection_rule": "highest dev Swedish-reply rate among settings whose Swedish dev replies have perplexity under the base model <= 1.15 x the base model's own; ties: smaller alpha, then earlier window",
+ "combos": [
+  {
+   "name": "L4-7_a1",
+   "layers": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "alpha": 1.0,
+   "seconds": 48.0641028881073,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643805,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178630717871735,
+    "frobenius_norm_of_change": 2.5892237444483417,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.82,
+   "swedish_reply_ppl_under_base": 2.1699508711407485,
+   "ppl_ratio_to_base": 0.9790427931482121,
+   "eligible": true
+  },
+  {
+   "name": "L4-7_a2",
+   "layers": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "alpha": 2.0,
+   "seconds": 45.245678186416626,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643830,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178635778264813,
+    "frobenius_norm_of_change": 5.178447488896683,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.14,
+   "swedish_reply_ppl_under_base": 2.1103699520788544,
+   "ppl_ratio_to_base": 0.9521609543967066,
+   "eligible": true
+  },
+  {
+   "name": "L8-11_a1",
+   "layers": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "alpha": 1.0,
+   "seconds": 46.35607099533081,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643399,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178548537088131,
+    "frobenius_norm_of_change": 2.4796963474373235,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.8733333333333333,
+   "swedish_reply_ppl_under_base": 2.216050503902392,
+   "ppl_ratio_to_base": 0.9998421180648814,
+   "eligible": true
+  },
+  {
+   "name": "L8-11_a2",
+   "layers": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "alpha": 2.0,
+   "seconds": 49.83237600326538,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643621,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.1785934733786725,
+    "frobenius_norm_of_change": 4.959392694874647,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.86,
+   "swedish_reply_ppl_under_base": 2.15047726218167,
+   "ppl_ratio_to_base": 0.9702566511384857,
+   "eligible": true
+  },
+  {
+   "name": "L12-15_a1",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": 1.0,
+   "seconds": 50.98315906524658,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643078,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178483561640996,
+    "frobenius_norm_of_change": 2.966846519064934,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.8866666666666667,
+   "swedish_reply_ppl_under_base": 2.2003467522392923,
+   "ppl_ratio_to_base": 0.9927568678430345,
+   "eligible": true
+  },
+  {
+   "name": "L12-15_a2",
+   "layers": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "alpha": 2.0,
+   "seconds": 50.254826068878174,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643327,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178533963156063,
+    "frobenius_norm_of_change": 5.933693038129868,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.8666666666666667,
+   "swedish_reply_ppl_under_base": 2.200922174248697,
+   "ppl_ratio_to_base": 0.9930164879011746,
+   "eligible": true
+  },
+  {
+   "name": "L16-19_a1",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": 1.0,
+   "seconds": 53.33233571052551,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643440,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.17855683613278,
+    "frobenius_norm_of_change": 2.948641712290179,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.006666666666666667,
+   "swedish_reply_ppl_under_base": 1.7346550103549367,
+   "ppl_ratio_to_base": 0.7826451322345546,
+   "eligible": true
+  },
+  {
+   "name": "L16-19_a2",
+   "layers": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "alpha": 2.0,
+   "seconds": 55.69224810600281,
+   "size": {
+    "matrices": 8,
+    "entries_in_edited_matrices": 20643840,
+    "entries_changed": 20643637,
+    "total_parameters": 494032768,
+    "percent_of_weights_changed": 4.178596712030243,
+    "frobenius_norm_of_change": 5.897283424580358,
+    "free_parameters_of_edit": "one unit direction in the residual stream (d_model numbers) and one strength"
+   },
+   "swedish_rate": 0.0,
+   "swedish_reply_ppl_under_base": Infinity,
+   "ppl_ratio_to_base": Infinity,
+   "eligible": false
+  }
+ ],
+ "selected": {
+  "name": "L12-15_a1",
+  "layers": [
+   12,
+   13,
+   14,
+   15
+  ],
+  "alpha": 1.0,
+  "direction_window": "12-15"
+ },
+ "feedback_budget": {
+  "dev_generation_runs_of_base_model": 1,
+  "activation_passes_over_dev_prompts": 1,
+  "dev_evaluations_of_edited_models": 8,
+  "dev_generations_total": 1350
+ }
+}

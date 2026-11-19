@@ -1,0 +1,100 @@
+{"id": "en000", "category": "food", "prompt": "How do I make a simple omelette?"}
+{"id": "en001", "category": "food", "prompt": "Suggest a quick dinner I can cook in twenty minutes."}
+{"id": "en002", "category": "food", "prompt": "What can I cook with rice, beans and tomatoes?"}
+{"id": "en003", "category": "food", "prompt": "How do you keep bread fresh for longer?"}
+{"id": "en004", "category": "food", "prompt": "Give me three ideas for a healthy breakfast."}
+{"id": "en005", "category": "food", "prompt": "What is the difference between baking soda and baking powder?"}
+{"id": "en006", "category": "food", "prompt": "How long should I boil pasta?"}
+{"id": "en007", "category": "health", "prompt": "How can I start running if I have never exercised?"}
+{"id": "en008", "category": "health", "prompt": "Give me tips for drinking more water during the day."}
+{"id": "en009", "category": "health", "prompt": "What is a good stretching routine after sitting all day?"}
+{"id": "en010", "category": "health", "prompt": "How can I fall asleep faster at night?"}
+{"id": "en011", "category": "health", "prompt": "Why is breakfast considered important?"}
+{"id": "en012", "category": "health", "prompt": "Suggest a ten-minute workout I can do at home."}
+{"id": "en013", "category": "health", "prompt": "How can I reduce stress before an exam?"}
+{"id": "en014", "category": "travel", "prompt": "What should I pack for a weekend trip to the beach?"}
+{"id": "en015", "category": "travel", "prompt": "Give me tips for travelling on a tight budget."}
+{"id": "en016", "category": "travel", "prompt": "How do I avoid getting lost in a new city?"}
+{"id": "en017", "category": "travel", "prompt": "Suggest a one-day itinerary for a city break."}
+{"id": "en018", "category": "travel", "prompt": "What should I do if my luggage is lost at the airport?"}
+{"id": "en019", "category": "travel", "prompt": "How can I make a long car journey more comfortable?"}
+{"id": "en020", "category": "travel", "prompt": "What are the advantages of travelling by train?"}
+{"id": "en021", "category": "home", "prompt": "How do I remove a coffee stain from a carpet?"}
+{"id": "en022", "category": "home", "prompt": "Give me tips for keeping a small apartment tidy."}
+{"id": "en023", "category": "home", "prompt": "How often should I water houseplants?"}
+{"id": "en024", "category": "home", "prompt": "What is the best way to clean windows without streaks?"}
+{"id": "en025", "category": "home", "prompt": "How can I lower my heating bill in winter?"}
+{"id": "en026", "category": "home", "prompt": "Suggest a simple weekly cleaning schedule."}
+{"id": "en027", "category": "home", "prompt": "How do I unclog a bathroom sink?"}
+{"id": "en028", "category": "work", "prompt": "How do I write a good cover letter?"}
+{"id": "en029", "category": "work", "prompt": "Give me tips for a job interview."}
+{"id": "en030", "category": "work", "prompt": "How can I ask my manager for feedback?"}
+{"id": "en031", "category": "work", "prompt": "What should I include in a short project update email?"}
+{"id": "en032", "category": "work", "prompt": "How do I prepare for a performance review?"}
+{"id": "en033", "category": "work", "prompt": "Suggest ways to run a shorter meeting."}
+{"id": "en034", "category": "work", "prompt": "How can I avoid procrastinating at work?"}
+{"id": "en035", "category": "school", "prompt": "How can I study more effectively for a test?"}
+{"id": "en036", "category": "school", "prompt": "Explain the difference between a noun and a verb."}
+{"id": "en037", "category": "school", "prompt": "Give me tips for writing an essay introduction."}
+{"id": "en038", "category": "school", "prompt": "How can I remember new vocabulary more easily?"}
+{"id": "en039", "category": "school", "prompt": "What is a good way to take notes in class?"}
+{"id": "en040", "category": "school", "prompt": "Explain what a fraction is in simple terms."}
+{"id": "en041", "category": "school", "prompt": "How can parents help children with reading?"}
+{"id": "en042", "category": "tech", "prompt": "How do I create a strong password?"}
+{"id": "en043", "category": "tech", "prompt": "Why is my phone battery draining so fast?"}
+{"id": "en044", "category": "tech", "prompt": "Explain what cloud storage is."}
+{"id": "en045", "category": "tech", "prompt": "How can I spot a phishing email?"}
+{"id": "en046", "category": "tech", "prompt": "What should I consider when buying a laptop?"}
+{"id": "en047", "category": "tech", "prompt": "Give me tips for reducing screen time."}
+{"id": "en048", "category": "tech", "prompt": "What is two-factor authentication?"}
+{"id": "en049", "category": "nature", "prompt": "Why do leaves change colour in autumn?"}
+{"id": "en050", "category": "nature", "prompt": "How do rainbows form?"}
+{"id": "en051", "category": "nature", "prompt": "Give me tips for growing herbs on a windowsill."}
+{"id": "en052", "category": "nature", "prompt": "Why are bees important?"}
+{"id": "en053", "category": "nature", "prompt": "What is the difference between weather and climate?"}
+{"id": "en054", "category": "nature", "prompt": "How can I reduce plastic waste at home?"}
+{"id": "en055", "category": "nature", "prompt": "Why does the moon change shape?"}
+{"id": "en056", "category": "money", "prompt": "How do I make a simple monthly budget?"}
+{"id": "en057", "category": "money", "prompt": "Give me tips for saving money on groceries."}
+{"id": "en058", "category": "money", "prompt": "What is an index fund?"}
+{"id": "en059", "category": "money", "prompt": "Explain what inflation means."}
+{"id": "en060", "category": "money", "prompt": "How can I build an emergency fund?"}
+{"id": "en061", "category": "money", "prompt": "What should I think about before taking a loan?"}
+{"id": "en062", "category": "money", "prompt": "How can I teach my child about money?"}
+{"id": "en063", "category": "culture", "prompt": "Recommend a classic novel for a beginner."}
+{"id": "en064", "category": "culture", "prompt": "Suggest a good film for a family movie night."}
+{"id": "en065", "category": "culture", "prompt": "Who was William Shakespeare?"}
+{"id": "en066", "category": "culture", "prompt": "What is the difference between a novel and a short story?"}
+{"id": "en067", "category": "culture", "prompt": "Give me tips for getting into jazz music."}
+{"id": "en068", "category": "culture", "prompt": "Suggest a board game for four players."}
+{"id": "en069", "category": "culture", "prompt": "How can I start reading more books?"}
+{"id": "en070", "category": "relations", "prompt": "How can I be a better listener?"}
+{"id": "en071", "category": "relations", "prompt": "Give me tips for making friends in a new city."}
+{"id": "en072", "category": "relations", "prompt": "How do I apologise to a friend properly?"}
+{"id": "en073", "category": "relations", "prompt": "Suggest a birthday present for my grandmother."}
+{"id": "en074", "category": "relations", "prompt": "How can I support a friend who is going through a hard time?"}
+{"id": "en075", "category": "relations", "prompt": "Give me ideas for a cheap date."}
+{"id": "en076", "category": "relations", "prompt": "How can families spend more time together?"}
+{"id": "en077", "category": "writing", "prompt": "Write a short poem about the sea."}
+{"id": "en078", "category": "writing", "prompt": "Write a short email saying I will be late for work."}
+{"id": "en079", "category": "writing", "prompt": "Write a birthday message for my brother."}
+{"id": "en080", "category": "writing", "prompt": "Write a short story about a lost dog."}
+{"id": "en081", "category": "writing", "prompt": "Write a thank-you note to a teacher."}
+{"id": "en082", "category": "writing", "prompt": "Write an advertisement for a second-hand sofa."}
+{"id": "en083", "category": "writing", "prompt": "Write a haiku about rain."}
+{"id": "en084", "category": "concepts", "prompt": "Explain what democracy is."}
+{"id": "en085", "category": "concepts", "prompt": "What is photosynthesis?"}
+{"id": "en086", "category": "concepts", "prompt": "Explain how a vaccine works."}
+{"id": "en087", "category": "concepts", "prompt": "What is the difference between a virus and bacteria?"}
+{"id": "en088", "category": "concepts", "prompt": "Explain gravity to a child."}
+{"id": "en089", "category": "concepts", "prompt": "How does a refrigerator work?"}
+{"id": "en090", "category": "concepts", "prompt": "What is an atom?"}
+{"id": "en091", "category": "tasks", "prompt": "Make a list of five things to do before a holiday."}
+{"id": "en092", "category": "tasks", "prompt": "Compare tea and coffee."}
+{"id": "en093", "category": "tasks", "prompt": "Suggest three names for a new puppy."}
+{"id": "en094", "category": "tasks", "prompt": "Rewrite the sentence \"The meeting is cancelled\" so it sounds friendlier."}
+{"id": "en095", "category": "tasks", "prompt": "Make up a riddle for children."}
+{"id": "en096", "category": "tasks", "prompt": "Give me five words that rhyme with \"cat\"."}
+{"id": "en097", "category": "tasks", "prompt": "Put these words in alphabetical order: pear, apple, banana, cherry."}
+{"id": "en098", "category": "food", "prompt": "How can I make soup from leftover vegetables?"}
+{"id": "en099", "category": "tasks", "prompt": "Summarise the benefits of walking to work in three sentences."}

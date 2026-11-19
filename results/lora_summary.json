@@ -1,0 +1,314 @@
+{
+ "written_by": "hand (Claude), because the LoRA process stalled before writing it; values come from results/lora_targets.jsonl, the process's step log, results/lora_adapter/ and file times",
+ "model": "qwen25",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "settings": {
+  "r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "epochs": 3,
+  "lr": 0.0002,
+  "batch": 8,
+  "seed": 0,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ]
+ },
+ "epochs_run": 3,
+ "batching": "8 sequences per optimizer step, run one at a time with gradients summed; loss = mean over all reply tokens in the step",
+ "n_dev_prompts": 150,
+ "n_training_examples": 139,
+ "max_new_tokens": 512,
+ "targets": "the base model's own greedy replies to dev prompts under the system prompt 'Svara alltid p\u00e5 svenska.', kept if Swedish by the two-halves rule; trained without that system prompt",
+ "trainable_parameters": 4399104,
+ "adapter_tensors": 336,
+ "targets_file_time": "2026-11-19 20:16:48",
+ "adapter_file_time": "2026-11-19 21:39:02",
+ "seconds_from_targets_file_to_adapter_file": 4934,
+ "train_seconds_note": "upper bound on training time: it also covers building the examples and saving",
+ "loss_log": [
+  {
+   "epoch": 0,
+   "step": 0,
+   "loss": 0.2758838962763548
+  },
+  {
+   "epoch": 0,
+   "step": 1,
+   "loss": 0.25164063833653927
+  },
+  {
+   "epoch": 0,
+   "step": 2,
+   "loss": 0.3520546481013298
+  },
+  {
+   "epoch": 0,
+   "step": 3,
+   "loss": 0.26237598108127713
+  },
+  {
+   "epoch": 0,
+   "step": 4,
+   "loss": 0.2596532963216305
+  },
+  {
+   "epoch": 0,
+   "step": 5,
+   "loss": 0.17618182767182589
+  },
+  {
+   "epoch": 0,
+   "step": 6,
+   "loss": 0.1570030606817454
+  },
+  {
+   "epoch": 0,
+   "step": 7,
+   "loss": 0.14339448348619044
+  },
+  {
+   "epoch": 0,
+   "step": 8,
+   "loss": 0.18682612664997578
+  },
+  {
+   "epoch": 0,
+   "step": 9,
+   "loss": 0.155120431445539
+  },
+  {
+   "epoch": 0,
+   "step": 10,
+   "loss": 0.17617571027949452
+  },
+  {
+   "epoch": 0,
+   "step": 11,
+   "loss": 0.21855401527136564
+  },
+  {
+   "epoch": 0,
+   "step": 12,
+   "loss": 0.17770347837358713
+  },
+  {
+   "epoch": 0,
+   "step": 13,
+   "loss": 0.17185598518699408
+  },
+  {
+   "epoch": 0,
+   "step": 14,
+   "loss": 0.1545694088563323
+  },
+  {
+   "epoch": 0,
+   "step": 15,
+   "loss": 0.25163232907652855
+  },
+  {
+   "epoch": 0,
+   "step": 16,
+   "loss": 0.22356053674593568
+  },
+  {
+   "epoch": 0,
+   "step": 17,
+   "loss": 0.12083691172301769
+  },
+  {
+   "epoch": 1,
+   "step": 18,
+   "loss": 0.10147449560463428
+  },
+  {
+   "epoch": 1,
+   "step": 19,
+   "loss": 0.09178661787882447
+  },
+  {
+   "epoch": 1,
+   "step": 20,
+   "loss": 0.08971267472952604
+  },
+  {
+   "epoch": 1,
+   "step": 21,
+   "loss": 0.15131244156509638
+  },
+  {
+   "epoch": 1,
+   "step": 22,
+   "loss": 0.1233632043004036
+  },
+  {
+   "epoch": 1,
+   "step": 23,
+   "loss": 0.11502909375121817
+  },
+  {
+   "epoch": 1,
+   "step": 24,
+   "loss": 0.18273902870714664
+  },
+  {
+   "epoch": 1,
+   "step": 25,
+   "loss": 0.23238811921328306
+  },
+  {
+   "epoch": 1,
+   "step": 26,
+   "loss": 0.073983502574265
+  },
+  {
+   "epoch": 1,
+   "step": 27,
+   "loss": 0.09055619640275836
+  },
+  {
+   "epoch": 1,
+   "step": 28,
+   "loss": 0.09883851883932948
+  },
+  {
+   "epoch": 1,
+   "step": 29,
+   "loss": 0.12400916637852788
+  },
+  {
+   "epoch": 1,
+   "step": 30,
+   "loss": 0.09556501940824091
+  },
+  {
+   "epoch": 1,
+   "step": 31,
+   "loss": 0.09523489116691053
+  },
+  {
+   "epoch": 1,
+   "step": 32,
+   "loss": 0.08521991409361362
+  },
+  {
+   "epoch": 1,
+   "step": 33,
+   "loss": 0.1716499524191022
+  },
+  {
+   "epoch": 1,
+   "step": 34,
+   "loss": 0.12117957998998463
+  },
+  {
+   "epoch": 1,
+   "step": 35,
+   "loss": 0.1784821916371584
+  },
+  {
+   "epoch": 2,
+   "step": 36,
+   "loss": 0.10047457320615649
+  },
+  {
+   "epoch": 2,
+   "step": 37,
+   "loss": 0.06736283539794385
+  },
+  {
+   "epoch": 2,
+   "step": 38,
+   "loss": 0.07939306506887078
+  },
+  {
+   "epoch": 2,
+   "step": 39,
+   "loss": 0.09526194469071925
+  },
+  {
+   "epoch": 2,
+   "step": 40,
+   "loss": 0.06504008080810308
+  },
+  {
+   "epoch": 2,
+   "step": 41,
+   "loss": 0.0735356432851404
+  },
+  {
+   "epoch": 2,
+   "step": 42,
+   "loss": 0.10718747973442078
+  },
+  {
+   "epoch": 2,
+   "step": 43,
+   "loss": 0.058973917926778086
+  },
+  {
+   "epoch": 2,
+   "step": 44,
+   "loss": 0.07839055103249848
+  },
+  {
+   "epoch": 2,
+   "step": 45,
+   "loss": 0.06221839913632721
+  },
+  {
+   "epoch": 2,
+   "step": 46,
+   "loss": 0.06988688232377172
+  },
+  {
+   "epoch": 2,
+   "step": 47,
+   "loss": 0.05863460851833224
+  },
+  {
+   "epoch": 2,
+   "step": 48,
+   "loss": 0.049626973865088075
+  },
+  {
+   "epoch": 2,
+   "step": 49,
+   "loss": 0.07216891646385193
+  },
+  {
+   "epoch": 2,
+   "step": 50,
+   "loss": 0.058573880582116544
+  },
+  {
+   "epoch": 2,
+   "step": 51,
+   "loss": 0.07024132693186402
+  },
+  {
+   "epoch": 2,
+   "step": 52,
+   "loss": 0.048144067870453
+  },
+  {
+   "epoch": 2,
+   "step": 53,
+   "loss": 0.0415296140126884
+  }
+ ],
+ "dev_evaluation_run": false,
+ "dev_swedish_rate_after_training": null,
+ "reason": "after training and saving the adapter, the process stalled with memory full during its dev evaluation (top: 14G footprint, state stuck; swap 19.8 of 20.5 GB used at 23:00); it was killed at 23:01 and the dev evaluation was not run",
+ "feedback_budget": {
+  "dev_generation_runs_for_targets": 1,
+  "dev_evaluations_of_trained_model": 0
+ }
+}

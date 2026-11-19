@@ -1,0 +1,60 @@
+{"id": "qa00", "lang": "sv", "question": "Vad är huvudstaden i Sverige?", "answers": ["Stockholm"]}
+{"id": "qa01", "lang": "en", "question": "What is the capital of France?", "answers": ["Paris"]}
+{"id": "qa02", "lang": "sv", "question": "Hur många dagar har en vecka?", "answers": ["7", "sju", "seven"]}
+{"id": "qa03", "lang": "en", "question": "How many legs does an insect have?", "answers": ["6", "six", "sex"]}
+{"id": "qa04", "lang": "sv", "question": "Vad är 12 plus 15?", "answers": ["27", "tjugosju", "twenty-seven", "twenty seven"]}
+{"id": "qa05", "lang": "en", "question": "What is 15 plus 27?", "answers": ["42", "forty-two", "forty two", "fyrtiotvå"]}
+{"id": "qa06", "lang": "sv", "question": "Vilken färg har en mogen banan?", "answers": ["gul", "gult", "gula", "yellow"]}
+{"id": "qa07", "lang": "en", "question": "What colour is the sky on a clear day?", "answers": ["blue", "blå", "blått"]}
+{"id": "qa08", "lang": "sv", "question": "Hur många ben har en spindel?", "answers": ["8", "åtta", "eight"]}
+{"id": "qa09", "lang": "en", "question": "What is the largest ocean on Earth?", "answers": ["Pacific", "Stilla havet", "Stillahavet"]}
+{"id": "qa10", "lang": "sv", "question": "Vad heter Sveriges största sjö?", "answers": ["Vänern", "Vanern"]}
+{"id": "qa11", "lang": "en", "question": "How many continents are there?", "answers": ["7", "seven", "sju"]}
+{"id": "qa12", "lang": "sv", "question": "Vilket djur säger \"mjau\"?", "answers": ["katt", "katten", "katter", "cat", "cats"]}
+{"id": "qa13", "lang": "en", "question": "What is 8 times 7?", "answers": ["56", "fifty-six", "fifty six", "femtiosex"]}
+{"id": "qa14", "lang": "sv", "question": "Vad är 9 gånger 6?", "answers": ["54", "femtiofyra", "fifty-four", "fifty four"]}
+{"id": "qa15", "lang": "en", "question": "Which planet is known as the Red Planet?", "answers": ["Mars"]}
+{"id": "qa16", "lang": "sv", "question": "Hur många månader har ett år?", "answers": ["12", "tolv", "twelve"]}
+{"id": "qa17", "lang": "en", "question": "What is the freezing point of water in degrees Celsius?", "answers": ["0", "zero", "noll"]}
+{"id": "qa18", "lang": "sv", "question": "Vilken planet är närmast solen?", "answers": ["Merkurius", "Mercury"]}
+{"id": "qa19", "lang": "en", "question": "Who wrote \"Romeo and Juliet\"?", "answers": ["Shakespeare"]}
+{"id": "qa20", "lang": "sv", "question": "Vad är huvudstaden i Norge?", "answers": ["Oslo"]}
+{"id": "qa21", "lang": "en", "question": "What is the capital of Japan?", "answers": ["Tokyo"]}
+{"id": "qa22", "lang": "sv", "question": "Vad är huvudstaden i Finland?", "answers": ["Helsingfors", "Helsinki"]}
+{"id": "qa23", "lang": "en", "question": "How many hours are in a day?", "answers": ["24", "twenty-four", "twenty four", "tjugofyra"]}
+{"id": "qa24", "lang": "sv", "question": "Vilket djur kallas djungelns konung?", "answers": ["lejon", "lejonet", "lion"]}
+{"id": "qa25", "lang": "en", "question": "What is 72 divided by 8?", "answers": ["9", "nine", "nio"]}
+{"id": "qa26", "lang": "sv", "question": "Hur många minuter är en timme?", "answers": ["60", "sextio", "sixty"]}
+{"id": "qa27", "lang": "en", "question": "Which gas do plants absorb from the air for photosynthesis?", "answers": ["carbon dioxide", "CO2", "CO₂", "koldioxid"]}
+{"id": "qa28", "lang": "sv", "question": "Vad är 100 minus 37?", "answers": ["63", "sextiotre", "sixty-three", "sixty three"]}
+{"id": "qa29", "lang": "en", "question": "What is the largest planet in our solar system?", "answers": ["Jupiter"]}
+{"id": "qa30", "lang": "sv", "question": "Vilket är världens största däggdjur?", "answers": ["blåval", "blåvalen", "blue whale"]}
+{"id": "qa31", "lang": "en", "question": "How many sides does a hexagon have?", "answers": ["6", "six", "sex"]}
+{"id": "qa32", "lang": "sv", "question": "Vilken månad kommer efter mars?", "answers": ["april"]}
+{"id": "qa33", "lang": "en", "question": "What is the capital of Italy?", "answers": ["Rome", "Rom"]}
+{"id": "qa34", "lang": "sv", "question": "Hur många sidor har en triangel?", "answers": ["3", "tre", "three"]}
+{"id": "qa35", "lang": "en", "question": "What is 100 minus 45?", "answers": ["55", "fifty-five", "fifty five", "femtiofem"]}
+{"id": "qa36", "lang": "sv", "question": "Vilken färg får man om man blandar blått och gult?", "answers": ["grön", "grönt", "gröna", "green"]}
+{"id": "qa37", "lang": "en", "question": "Which animal is known as the king of the jungle?", "answers": ["lion", "lions", "lejon", "lejonet"]}
+{"id": "qa38", "lang": "sv", "question": "Vem skrev Pippi Långstrump?", "answers": ["Astrid Lindgren", "Lindgren"]}
+{"id": "qa39", "lang": "en", "question": "What is the chemical symbol for gold?", "answers": ["Au"]}
+{"id": "qa40", "lang": "sv", "question": "Vad är 7 gånger 8?", "answers": ["56", "femtiosex", "fifty-six", "fifty six"]}
+{"id": "qa41", "lang": "en", "question": "How many minutes are in an hour?", "answers": ["60", "sixty", "sextio"]}
+{"id": "qa42", "lang": "sv", "question": "Vilket land har huvudstaden Köpenhamn?", "answers": ["Danmark", "Denmark"]}
+{"id": "qa43", "lang": "en", "question": "What is the tallest mountain in the world?", "answers": ["Everest"]}
+{"id": "qa44", "lang": "sv", "question": "Hur många år är ett sekel?", "answers": ["100", "hundra", "etthundra", "hundred"]}
+{"id": "qa45", "lang": "en", "question": "What is the square root of 49?", "answers": ["7", "seven", "sju"]}
+{"id": "qa46", "lang": "sv", "question": "Vad är den kemiska formeln för vatten?", "answers": ["H2O", "H₂O"]}
+{"id": "qa47", "lang": "en", "question": "Which month comes after June?", "answers": ["July", "juli"]}
+{"id": "qa48", "lang": "sv", "question": "Vilket är Sveriges högsta berg?", "answers": ["Kebnekaise"]}
+{"id": "qa49", "lang": "en", "question": "What is the capital of Spain?", "answers": ["Madrid"]}
+{"id": "qa50", "lang": "sv", "question": "Hur många timmar har ett dygn?", "answers": ["24", "tjugofyra", "twenty-four", "twenty four"]}
+{"id": "qa51", "lang": "en", "question": "How many weeks are in a year?", "answers": ["52", "fifty-two", "fifty two", "femtiotvå"]}
+{"id": "qa52", "lang": "sv", "question": "Vad är 132 delat med 12?", "answers": ["11", "elva", "eleven"]}
+{"id": "qa53", "lang": "en", "question": "What do bees make?", "answers": ["honey", "honung"]}
+{"id": "qa54", "lang": "sv", "question": "Vilken årstid kommer efter vintern?", "answers": ["vår", "våren", "spring"]}
+{"id": "qa55", "lang": "en", "question": "What is 12 times 12?", "answers": ["144"]}
+{"id": "qa56", "lang": "sv", "question": "Vad heter den största planeten i solsystemet?", "answers": ["Jupiter"]}
+{"id": "qa57", "lang": "en", "question": "In which country are the pyramids of Giza?", "answers": ["Egypt", "Egypten"]}
+{"id": "qa58", "lang": "sv", "question": "Hur många ben har en hund?", "answers": ["4", "fyra", "four"]}
+{"id": "qa59", "lang": "en", "question": "What is the opposite of \"hot\"?", "answers": ["cold", "kall", "kallt"]}

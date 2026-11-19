@@ -1,0 +1,88 @@
+{
+ "all_languages/text": {
+  "accuracy": 1.0,
+  "per_language_accuracy": {
+   "sv": 1.0,
+   "no": 1.0,
+   "da": 1.0,
+   "en": 1.0
+  },
+  "swedish_recall": 1.0,
+  "swedish_precision": 1.0,
+  "confusion_true_to_pred": {
+   "da->da": 50,
+   "en->en": 50,
+   "no->no": 50,
+   "sv->sv": 50
+  },
+  "n": 200,
+  "mean_chars": 520.455
+ },
+ "all_languages/first_sentence": {
+  "accuracy": 0.935,
+  "per_language_accuracy": {
+   "sv": 0.98,
+   "no": 0.92,
+   "da": 0.9,
+   "en": 0.94
+  },
+  "swedish_recall": 0.98,
+  "swedish_precision": 1.0,
+  "confusion_true_to_pred": {
+   "da->da": 45,
+   "da->no": 1,
+   "da->other": 4,
+   "en->en": 47,
+   "en->other": 3,
+   "no->da": 3,
+   "no->no": 46,
+   "no->other": 1,
+   "sv->other": 1,
+   "sv->sv": 49
+  },
+  "n": 200,
+  "mean_chars": 113.47
+ },
+ "restricted_sv_no_da_en/text": {
+  "accuracy": 1.0,
+  "per_language_accuracy": {
+   "sv": 1.0,
+   "no": 1.0,
+   "da": 1.0,
+   "en": 1.0
+  },
+  "swedish_recall": 1.0,
+  "swedish_precision": 1.0,
+  "confusion_true_to_pred": {
+   "da->da": 50,
+   "en->en": 50,
+   "no->no": 50,
+   "sv->sv": 50
+  },
+  "n": 200,
+  "mean_chars": 520.455
+ },
+ "restricted_sv_no_da_en/first_sentence": {
+  "accuracy": 0.97,
+  "per_language_accuracy": {
+   "sv": 0.98,
+   "no": 0.94,
+   "da": 0.96,
+   "en": 1.0
+  },
+  "swedish_recall": 0.98,
+  "swedish_precision": 1.0,
+  "confusion_true_to_pred": {
+   "da->da": 48,
+   "da->en": 1,
+   "da->no": 1,
+   "en->en": 50,
+   "no->da": 3,
+   "no->no": 47,
+   "sv->en": 1,
+   "sv->sv": 49
+  },
+  "n": 200,
+  "mean_chars": 113.47
+ }
+}
