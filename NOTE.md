@@ -1,67 +1,58 @@
 # Can a small weight edit stop wrong-language replies to Swedish prompts?
 
-No. My edit did no better than random edits of the same size. A Swedish system prompt and a small fine-tune each
-raised the Swedish-reply rate by about 11 points, but each damaged something else. Most wrong-language replies also
-misread the prompt, so the main problem looks like a missing skill, not a blocker.
+**No.** My edit did no better than random edits of the same size. A Swedish system prompt and a small fine-tune
+(LoRA) each raised Swedish replies by about 11 points, but each caused damage elsewhere. Most wrong-language replies
+also misread the question, so the problem looks like weak Swedish, not a switch that an edit could flip. I tested the
+kind of edit the blog's Experiment 8 used (found from activations, chosen with feedback), not whether an AI can find
+edits by reading weights. The appendix gives the source of every number.
 
-I tested the kind of edit the blog's Experiment 8 used (a feedback-guided, activation-derived weight edit), not
-whether an AI can find edits by reading weights. The appendix gives the source file of every number.
+## 1. What I think of the blog
 
-## 1. Critique of the blog
+The blog shows an AI agent finding useful edits when it can run the model and measure the results. It does not show
+an AI reading a real language model's behaviour from its weights alone.
 
-The blog shows that an AI agent can find useful edits when it can run the model and measure the results. It does
-not show that an AI can read a real language model's behaviour from its weights alone.
+- **Best evidence for weight reading: Experiment 3.** Without running tiny character models, the agent named their
+  "copying heads", and a separate measurement confirmed them.
+- **Experiment 8 removed a blocker, through trial and feedback.** It gained 49.8 points (SE 1.5) on 1,152 practice
+  problems not used for tuning, but 576 of its 579 rescued answers had been cut off by thinking loops. Its strength
+  was tuned on measured accuracy, and it did not help Gemma 3 270M, which rarely loops.
+- **Weak spots.** The one weights-only test on a real language model (Experiment 7) failed. There are no simple
+  baselines and only one random control. "0.016% of weights" counts the numbers touched, not the size of the change.
 
-- Experiment 3 is the best evidence for weight reading. From the weights of tiny character models, the agent named
-  the "copying heads" (parts that repeat earlier text), and a separate measurement confirmed them.
-- Experiment 8 shows unblocking. The edit gained 49.8 points (SE 1.5) on 1,152 held-out problems, and 576 of its 579
-  rescues had been cut off by thinking loops. The same procedure did not help Gemma 3 270M, which rarely loops.
-- Experiment 8 is not weight reading. The loops were found in generated text, located with activations, and the
-  edit was tuned on measured accuracy. The only weights-only test on a language model (Experiment 7) failed.
-- Simple baselines are missing, and the random control was a single draw. "0.016% of weights" counts touched
-  numbers, not the size of the change.
-
-My full critique is in `results/critique_own.md`, and the comparison with my notes is in
-`results/critique_comparison.md`.
+Claude's full critique, written before it saw my notes (`my_notes.md`), is in `results/critique_own.md`, and
+`results/critique_comparison.md` compares the two.
 
 ## 2. Hypothesis
 
-My bet was that wrong-language replies are a blocker, like Qwen's thinking loops. The model can answer in Swedish,
-but something small pushes it into English, Norwegian or Danish.
-
-- The bet is supported if the edit beats the base model and random edits of the same size on held-out prompts,
-  regressions are small, and no prompt or sampling change matches it.
-- The bet is challenged if random edits do as well, a prompt or sampling change does as well or better, other
-  abilities get worse, or the failure barely exists.
+Small models sometimes answer Swedish questions in English, Norwegian or Danish, which makes a Swedish assistant
+useless to its users. My bet was that this is a blocker, like the blog's loops, and that a targeted edit could remove
+it. The bet is **supported if** the edit beats the base model and random edits of the same size on unseen prompts,
+with little damage elsewhere, and no prompt or sampling change does as well. It is **challenged if** random edits or
+simple changes do as well, other abilities get worse, or the problem barely exists.
 
 ## 3. Setup
 
-I compared one selected weight edit with random edits and simple alternatives, on Swedish test prompts that I did
-not use to choose the edit.
-
-- **Model.** Qwen2.5-0.5B-Instruct (revision `7ae5576`). The planned Qwen3.5-0.8B gave 0 wrong-language replies to
-  40 pilot prompts in the first 128 tokens (Wilson 95% CI 0-8.8%), so I switched. This says nothing about longer
-  replies.
-- **Data and language check.** Claude wrote 300 Swedish prompts (150 dev, 150 test), 150 English prompts and 60
-  questions with exact answers. A reply counts as Swedish only if lingua, a language detector that was right on 100%
-  of 200 test paragraphs, classifies both of its halves as Swedish. Replies are greedy, up to 512 new tokens.
-- **The edit.** It scales what four layers write into the model's running internal state along one direction
-  (W ← W − α r rᵀ W). Its free parameters are one 896-number direction and one strength. It changes 4.18% of all
-  weights. That cannot be compared with the blog's 0.016%, because my edit touches every entry of 8 matrices, but
-  only along one direction.
-- **Dev work.** A fixed rule picked one of 16 dev settings. The feedback budget (dev runs of edited models) was 17.
-- **Conditions.** Base; the edit; 5 random directions of the same size; the system prompt "Svara alltid på
-  svenska."; an empty system prompt (the template otherwise adds an English one); the repo's sampling settings (3
-  seeds); and LoRA, a small add-on to the weights trained on the model's own Swedish replies to dev prompts.
-- **Test-set use.** An early smoke test read the first 10 items of each test file, so my main results leave them
-  out: 140 Swedish prompts, 90 English prompts, 50 questions and 90 Wikipedia paragraphs. The full set agrees.
+- **Model.** Qwen2.5-0.5B-Instruct (revision `7ae5576`). The blog's Qwen3.5-0.8B gave 0 wrong-language replies to 40
+  pilot prompts in the first 128 tokens (95% interval 0-8.8%), so I switched. That says nothing about longer replies.
+- **Data and measure.** Claude wrote 300 Swedish prompts (150 for development, 150 for testing), 150 English prompts
+  and 60 questions with exact answers. A reply counts as Swedish only if lingua, a language detector that was right
+  on 100% of 200 check paragraphs, calls both of its halves Swedish. Replies are greedy (except for sampling), up to
+  512 new tokens.
+- **The edit.** W ← W − α r rᵀ W in four layers, with one 896-number direction plus one strength. It changes 4.18%
+  of all weights (every entry of 8 matrices, but only along one direction), so it can't be compared with the blog's
+  0.016%. A fixed rule picked it from the 8 settings of the second of two development rounds (16 settings in all),
+  which took 17 runs of edited models (the feedback budget).
+- **Test conditions.** The base model; the edit; 5 random directions of the same size; the system prompt "Svara
+  alltid på svenska." ("Always answer in Swedish."); an empty system prompt (the template otherwise adds an English
+  one); the model's own sampling settings, with 3 seeds; and LoRA, trained on the model's Swedish replies to
+  development prompts.
+- **Test set.** A smoke test saw the first 10 items of each test file early, so the main results use the rest: 140
+  Swedish prompts, 90 English prompts, 50 questions and 90 Wikipedia paragraphs. The full set agrees.
 
 ## 4. Results
 
-The edit did not help. The simple fixes did better, but each had a cost.
-
-This table shows each condition on the main test set. "Fixed / newly broken" counts Swedish prompts that changed
-outcome compared with the base model. QA accuracy is on the questions with exact answers.
+The edit did not help. The simple fixes helped more, at a cost. In the table, "fixed / newly broken" counts Swedish
+prompts whose outcome changed compared with the base model.
 
 <!-- table:test main: overview -->
 | Condition | Swedish replies to Swedish prompts [95% CI] | fixed / newly broken vs base | English replies to English prompts | QA accuracy |
@@ -75,39 +66,23 @@ outcome compared with the base model. QA accuracy is on the questions with exact
 | lora | 88.6% [82.2%, 92.8%] | 26 / 10 | 98.9% | 74.0% |
 <!-- /table:test main: overview -->
 
-- **The edit.** It scored −2.9 points against base [−10.0, +3.6], p = 0.54. So a gain above 3.6 points is ruled out
-  at 95% confidence. Against the random edits it scored −2.7.
-- **Churn.** The edit fixed 10 prompts and broke 14. Each random edit fixed 7 to 12 and broke 9 to 11. So the edit
-  behaves like a random disturbance of the same size. The table below shows this per random draw.
-- **Dev.** I tried 16 settings in 2 rounds. The best setting in each round beat base by one prompt.
-- **Swedish system prompt.** +11.4 points (p = 0.007). It broke 6 English prompts. Four of them now get Swedish
-  replies, which is the model following the instruction. The other 2 are real damage: en016 switches language
-  partway, and en096 is a "Catnip" loop.
-- **LoRA.** +11.4 points (p = 0.011). But perplexity on Swedish Wikipedia went from 47.2 to 123.5. Perplexity is how
-  surprised the model is by real text; lower is better. The edit only moved it to 49.2. A possible cause is 3
-  training epochs on the model's own replies (final training loss 0.0415). Its QA gain (+10, p = 0.0625) is not
-  significant.
-- **Others.** The empty system prompt gave +6.4 (p = 0.14) and sampling gave +5.0. Neither is significant.
+- **The edit** scored −2.9 points against the base model (95% interval −10.0 to +3.6, p = 0.54), so a gain above 3.6
+  points is ruled out. Against the average random edit it scored −2.7. It fixed 10 prompts and broke 14, while each
+  random edit fixed 7 to 12 and broke 9 to 11, so it acts like a random nudge (full table in `results/summary.md`).
+  In development, the best setting of each round was one prompt better than the base model (133 vs 132 of 150 at
+  128 tokens, and 128 vs 127 at 512 tokens).
+- **The Swedish system prompt** gave +11.4 (p = 0.007), but it broke 6 English prompts. 4 of them now get Swedish
+  replies, which is the model obeying the instruction. The other 2 are real damage: en016 switches partway, and
+  en096 repeats "Catnip".
+- **LoRA** gave +11.4 (p = 0.011). But its perplexity on Swedish Wikipedia (how surprised it is by real text; lower
+  is better) rose from 47.2 to 123.5, while the edit moved it only to 49.2. A possible cause is 3 epochs on the
+  model's own replies, down to a training loss of 0.0415. Its QA gain (+10, p = 0.0625) is not significant.
+- **Not significant:** the empty system prompt (+6.4, p = 0.14) and sampling (+5.0).
 
-This table compares the edit's churn with each random edit.
+## 5. Blocker or missing skill?
 
-<!-- table:test main: churn, edit vs random edits -->
-| Weights | fixed | newly broken | changed (fixed + broken) | net |
-|---|---|---|---|---|
-| edited | 10 | 14 | 24 | -4 |
-| random_s1 | 9 | 11 | 20 | -2 |
-| random_s2 | 7 | 9 | 16 | -2 |
-| random_s3 | 11 | 10 | 21 | +1 |
-| random_s4 | 12 | 10 | 22 | +2 |
-| random_s5 | 10 | 10 | 20 | +0 |
-<!-- /table:test main: churn, edit vs random edits -->
-
-## 5. Interpretation: unblocking or new skill?
-
-The failures are mostly a missing skill. Only a few look like a blocker that hides an ability the model has.
-
-I read every wrong-language reply without knowing which condition produced it. For each one I noted whether lingua's
-label was right and whether the reply understood the prompt. This table shows the base model's 32 test failures.
+Mostly a missing skill. Claude labelled every wrong-language reply without knowing its condition: was lingua's label
+right, and did the reply understand the question? This table covers the base model's 32 test failures.
 
 <!-- table:test main: base failures by label and understanding -->
 | Base failure is a | understood the prompt | misread it | unclear | total |
@@ -117,40 +92,35 @@ label was right and whether the reply understood the prompt. This table shows th
 | unclear label | 0 | 0 | 1 | 1 |
 <!-- /table:test main: base failures by label and understanding -->
 
-- Of the 23 real wrong-language replies, 17 also misread the prompt. Only 5 understood it.
-- 8 "failures" were detector errors: broken or looping Swedish that lingua called another language.
-- This matches the blog's Gemma result. An edit can remove a blocker, but it cannot add a missing skill.
-- The clearest single cause I found is the English default system prompt. Of 16 English failures, the Swedish system
-  prompt fixed 13, the empty one fixed 10, and LoRA fixed all 16.
+Of the 23 replies that really were in the wrong language, 17 also misread the question, and only 5 understood it.
+Another 8 were detector errors on broken or looping Swedish. This fits the blog's Gemma result: an edit can remove a
+blocker, but it cannot add a missing skill. The clearest single cause is the English default system prompt. Of the
+16 English failures, the Swedish system prompt fixed 13, the empty one 10, and LoRA all 16.
 
 ## 6. Limitations
 
-- The understanding and label marks were made by Claude alone, with no human check.
-- I made many comparisons without correcting for multiple tests. My main conclusion rests on two of them: edit vs
-  base and edit vs random.
-- Base scored 84.7% Swedish on dev and 77.1% on test. The 95% intervals overlap (78.0-89.6% and 69.5-83.3%), so the
-  gap may be chance.
-- I left out the 10 test items seen early. The full set agrees.
-- I tested the blog's kind of edit, not whether an AI can find edits by reading weights.
-- I skipped LoRA's own dev check, because the process stalled with memory full after training.
-- Time: the assignment window was about 1.25 days (18 Nov 19:20 to the end of 19 Nov CET). With more time I would be
-  more confident in these conclusions. I would add a larger test set (this one can only detect differences of about
-  9.5 points or more), a human Swedish speaker to check the labels, a second model, the skipped LoRA dev check, and a
-  multiple-comparison correction.
+- The labels come from Claude alone, with no human check.
+- I made many comparisons without a correction for multiple tests. The conclusion rests on two: the edit against the
+  base model, and the edit against random edits.
+- The base model scored 84.7% on development prompts and 77.1% on test prompts, but the 95% intervals overlap
+  (78.0-89.6% and 69.5-83.3%), so the gap may be chance.
+- I tested the blog's kind of edit, not weight reading. I skipped LoRA's development check, because its process
+  stalled with memory full.
+- The assignment window was under a day and a half. With more time I would be more confident. I would add a larger
+  test set (this one detects only differences of about 9.5 points or more), a human Swedish speaker to check the
+  labels, a second model, the LoRA check, and a correction for multiple tests.
 
 ## 7. Recommendation and next experiment
 
-SE.LLMA should not prioritise this kind of weight editing for Swedish language-choice failures. Fix template
-defaults first. Improve Swedish skill with data and fine-tuning, while checking general Swedish quality. Use targeted
-edits only where one cause is confirmed.
-
-The next experiment I would run is a targeted edit against the English-default-prompt cause, compared with simply
-removing that prompt. I would add labels from a human Swedish speaker.
+SE.LLMA should not prioritise this kind of weight editing for Swedish language-choice problems. Fix template defaults
+first, such as the hidden English system prompt. Improve Swedish skill with data and fine-tuning, while checking that
+general Swedish quality holds. Keep targeted edits for cases with one confirmed cause. Next, I would test a targeted
+edit against the English default prompt, compared with simply removing it, and have a Swedish speaker check the
+labels.
 
 ## Appendix: where each number comes from
 
-This table lists each number in the text above, the file it comes from, and the field. The values are read from the
-files by `analyze.py note`.
+This is a reference table, not part of the two-page note. `analyze.py note` reads each value from its file.
 
 <!-- table:appendix -->
 | Number in the text | File | Field | Value in the file |
@@ -210,7 +180,3 @@ files by `analyze.py note`.
 | base on test: 69.5-83.3% | `results/summary.json` | `subsets.main.conditions.base.swedish_rate_wilson95` | [0.6952, 0.8332] |
 | detectable difference about 9.5 points | `results/summary.json` | `subsets.main.power.mde_80pct_power_at_observed_discordance` | 0.0954 |
 <!-- /table:appendix -->
-
-The blog's numbers in section 1 come from the blog and its data files and logs, as cited in
-`results/critique_own.md` and `results/critique_comparison.md`. The time window in section 6 is the researcher's own
-statement, not a results file. The data sizes in section 3 are the line counts of the files in `data/`.
