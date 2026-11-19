@@ -1,7 +1,7 @@
 # Comparison: Claude's critique (results/critique_own.md) and my notes (my_notes.md)
 
 *Written by Claude after it had finished its own critique. On 20 Nov 2026 the wording of this file was simplified
-for readability; the content is unchanged. The original text is in git commit `bd9323c`.*
+for readability; the content is unchanged. The original text is in git commit `e1b512c`.*
 
 `critique_own.md` was written before `my_notes.md` was opened. Its content has not changed since (only its wording
 was simplified on 20 Nov 2026). Any change of view is recorded here, and only where new evidence supports it. Every

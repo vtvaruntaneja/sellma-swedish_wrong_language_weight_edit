@@ -1,7 +1,7 @@
 # Critique of "Sparks of Weight-Space Programming"
 
 *Written by Claude before it read my notes (`my_notes.md`). On 20 Nov 2026 the wording was simplified for
-readability; the content is unchanged. The original text is in git commit `bd9323c`.*
+readability; the content is unchanged. The original text is in git commit `e1b512c`.*
 
 **Source.** Blog post by Takehi, Teoh, Zhang and Khattab, dated 2 Nov 2026, with a "Response to Comments" section
 added on 12 Nov 2026 (https://rikiyat.github.io/blog/weight-space-programming/). The details on Experiment 8 come from
