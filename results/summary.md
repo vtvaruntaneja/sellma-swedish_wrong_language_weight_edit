@@ -2,6 +2,8 @@
 
 ## test main: conditions
 
+This table shows every condition separately, including each random edit and sampling seed. Drift means the two halves of a reply are in different languages.
+
 | Condition | Swedish replies to Swedish prompts [95% CI] | fixed / newly broken vs base | English replies to English prompts | fixed / newly broken vs base | QA accuracy | Swedish replies that drift (first half vs second) | Swedish prompts hitting 512 tokens |
 |---|---|---|---|---|---|---|---|
 | base | 77.1% [69.5%, 83.3%] (n=140) |  | 98.9% (n=90) |  | 64.0% | 12 | 75.7% |
@@ -20,7 +22,23 @@
 | random, mean of 5 | 77.0% | 9.8 / 10.0 | 98.7% | 0.4 / 0.6 | 65.6% | | |
 | sampling, mean of 3 | 82.1% | 14.0 / 7.0 | 99.3% | 0.3 / 0.0 | 64.0% | | |
 
+## test main: overview
+
+This table shows the main result per condition: how often it replied in Swedish to Swedish prompts, how many base failures it fixed and how many new ones it caused, and two regression checks.
+
+| Condition | Swedish replies to Swedish prompts [95% CI] | fixed / newly broken vs base | English replies to English prompts | QA accuracy |
+|---|---|---|---|---|
+| base | 77.1% [69.5%, 83.3%] |  | 98.9% | 64.0% |
+| edited | 74.3% [66.5%, 80.8%] | 10 / 14 | 100.0% | 66.0% |
+| random, mean of 5 | 77.0% | 9.8 / 10.0 | 98.7% | 65.6% |
+| sysprompt_sv | 88.6% [82.2%, 92.8%] | 24 / 8 | 92.2% | 70.0% |
+| sysprompt_empty | 83.6% [76.6%, 88.8%] | 19 / 10 | 98.9% | 72.0% |
+| sampling, mean of 3 | 82.1% | 14.0 / 7.0 | 99.3% | 64.0% |
+| lora | 88.6% [82.2%, 92.8%] | 26 / 10 | 98.9% | 74.0% |
+
 ## test main: key comparisons
+
+Each cell is a paired difference in percentage points on the same prompts, with a 95% bootstrap interval and, for yes/no outcomes, the exact McNemar p-value.
 
 | Comparison | Swedish replies (Swedish prompts) | English replies (English prompts) | QA accuracy |
 |---|---|---|---|
@@ -35,6 +53,8 @@
 
 ## test main: churn, edit vs random edits
 
+This table compares how many Swedish prompts the edit changed with how many each random edit of the same size changed.
+
 | Weights | fixed | newly broken | changed (fixed + broken) | net |
 |---|---|---|---|---|
 | edited | 10 | 14 | 24 | -4 |
@@ -45,6 +65,8 @@
 | random_s5 | 10 | 10 | 20 | +0 |
 
 ## test main: paired comparisons
+
+This table lists every paired difference, against base and against the edited model.
 
 | Comparison | Metric | Difference | 95% CI | gained / lost | McNemar p |
 |---|---|---|---|---|---|
@@ -126,6 +148,8 @@
 
 ## test main: base failures fixed, by language
 
+This table shows, per condition, how many of the base model's wrong-language replies became Swedish, split by the language of the base reply.
+
 | Condition | base failures in 'da' now Swedish | base failures in 'en' now Swedish | base failures in 'no' now Swedish | base failures in 'other' now Swedish |
 |---|---|---|---|---|
 | edited | 0 of 3 | 3 of 16 | 5 of 10 | 2 of 3 |
@@ -142,6 +166,8 @@
 | lora | 2 of 3 | 16 of 16 | 7 of 10 | 1 of 3 |
 
 ## test main: perplexity checks
+
+Perplexity is how surprised a model is by a text (lower is better). The first table scores each condition's Swedish replies with the base model. The second scores Wikipedia paragraphs with each set of weights.
 
 | Condition | n Swedish replies | ppl under base (all) | ratio to base on prompts both answered in Swedish | flag (>1.15) |
 |---|---|---|---|---|
@@ -172,9 +198,13 @@
 
 ## test main: power
 
+This line says how large a difference the test could reliably detect.
+
 n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable difference (80% power, two-sided 0.05): 9.5 pts. Base failures available to fix: 32.
 
 ## test main: understanding and label check
+
+This table shows, for each source's wrong-language replies, whether lingua's label was right and whether the reply understood the prompt (hand labels, see understanding_rubric.md).
 
 | Source | non-Swedish replies | label right? yes / no / unclear | understood the prompt? yes / no / unclear | real switch and understood | rescued Swedish replies: n; understood yes / no / unclear |
 |---|---|---|---|---|---|
@@ -194,7 +224,36 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 | test_sampling_s3 | 25 | 24 / 1 / 0 | 7 / 16 / 2 | 7 | 14; 2 / 9 / 3 |
 | test_lora | 16 | 4 / 8 / 4 | 5 / 3 / 8 | 2 | 26; 8 / 10 / 8 |
 
+## test main: base failures by label and understanding
+
+This table splits the base model's failures by the two hand labels.
+
+| Base failure is a | understood the prompt | misread it | unclear | total |
+|---|---|---|---|---|
+| real wrong-language reply | 5 | 17 | 1 | 23 |
+| detector error (the reply is Swedish) | 2 | 3 | 3 | 8 |
+| unclear label | 0 | 0 | 1 | 1 |
+
+## test main: English prompts newly broken
+
+This table lists English prompts that got an English reply from the base model but not from the condition, with lingua's labels for the two halves.
+
+| Condition | English prompt | lingua: first half / second half |
+|---|---|---|
+| random_s2 | en090 | en / other |
+| random_s2 | en098 | en / no |
+| random_s4 | en065 | en / other |
+| sysprompt_sv | en016 | en / other |
+| sysprompt_sv | en035 | sv / sv |
+| sysprompt_sv | en069 | sv / sv |
+| sysprompt_sv | en072 | sv / sv |
+| sysprompt_sv | en079 | sv / sv |
+| sysprompt_sv | en096 | other / other |
+| lora | en096 | other / other |
+
 ## test full: conditions
+
+This table shows every condition separately, including each random edit and sampling seed. Drift means the two halves of a reply are in different languages.
 
 | Condition | Swedish replies to Swedish prompts [95% CI] | fixed / newly broken vs base | English replies to English prompts | fixed / newly broken vs base | QA accuracy | Swedish replies that drift (first half vs second) | Swedish prompts hitting 512 tokens |
 |---|---|---|---|---|---|---|---|
@@ -214,7 +273,23 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 | random, mean of 5 | 78.3% | 10.6 / 10.2 | 98.8% | 0.4 / 0.6 | 66.3% | | |
 | sampling, mean of 3 | 82.9% | 15.0 / 7.7 | 99.3% | 0.3 / 0.0 | 65.6% | | |
 
+## test full: overview
+
+This table shows the main result per condition: how often it replied in Swedish to Swedish prompts, how many base failures it fixed and how many new ones it caused, and two regression checks.
+
+| Condition | Swedish replies to Swedish prompts [95% CI] | fixed / newly broken vs base | English replies to English prompts | QA accuracy |
+|---|---|---|---|---|
+| base | 78.0% [70.7%, 83.9%] |  | 99.0% | 65.0% |
+| edited | 74.7% [67.2%, 81.0%] | 11 / 16 | 100.0% | 66.7% |
+| random, mean of 5 | 78.3% | 10.6 / 10.2 | 98.8% | 66.3% |
+| sysprompt_sv | 88.0% [81.8%, 92.3%] | 25 / 10 | 92.0% | 70.0% |
+| sysprompt_empty | 84.7% [78.0%, 89.6%] | 20 / 10 | 99.0% | 71.7% |
+| sampling, mean of 3 | 82.9% | 15.0 / 7.7 | 99.3% | 65.6% |
+| lora | 89.3% [83.4%, 93.3%] | 27 / 10 | 99.0% | 73.3% |
+
 ## test full: key comparisons
+
+Each cell is a paired difference in percentage points on the same prompts, with a 95% bootstrap interval and, for yes/no outcomes, the exact McNemar p-value.
 
 | Comparison | Swedish replies (Swedish prompts) | English replies (English prompts) | QA accuracy |
 |---|---|---|---|
@@ -229,6 +304,8 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 
 ## test full: churn, edit vs random edits
 
+This table compares how many Swedish prompts the edit changed with how many each random edit of the same size changed.
+
 | Weights | fixed | newly broken | changed (fixed + broken) | net |
 |---|---|---|---|---|
 | edited | 11 | 16 | 27 | -5 |
@@ -239,6 +316,8 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 | random_s5 | 11 | 11 | 22 | +0 |
 
 ## test full: paired comparisons
+
+This table lists every paired difference, against base and against the edited model.
 
 | Comparison | Metric | Difference | 95% CI | gained / lost | McNemar p |
 |---|---|---|---|---|---|
@@ -320,6 +399,8 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 
 ## test full: base failures fixed, by language
 
+This table shows, per condition, how many of the base model's wrong-language replies became Swedish, split by the language of the base reply.
+
 | Condition | base failures in 'da' now Swedish | base failures in 'en' now Swedish | base failures in 'no' now Swedish | base failures in 'other' now Swedish |
 |---|---|---|---|---|
 | edited | 0 of 3 | 3 of 16 | 6 of 11 | 2 of 3 |
@@ -336,6 +417,8 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 | lora | 2 of 3 | 16 of 16 | 8 of 11 | 1 of 3 |
 
 ## test full: perplexity checks
+
+Perplexity is how surprised a model is by a text (lower is better). The first table scores each condition's Swedish replies with the base model. The second scores Wikipedia paragraphs with each set of weights.
 
 | Condition | n Swedish replies | ppl under base (all) | ratio to base on prompts both answered in Swedish | flag (>1.15) |
 |---|---|---|---|---|
@@ -366,9 +449,13 @@ n = 140. Observed discordant rate (edited vs base): 0.171. Minimum detectable di
 
 ## test full: power
 
+This line says how large a difference the test could reliably detect.
+
 n = 150. Observed discordant rate (edited vs base): 0.180. Minimum detectable difference (80% power, two-sided 0.05): 9.5 pts. Base failures available to fix: 33.
 
 ## test full: understanding and label check
+
+This table shows, for each source's wrong-language replies, whether lingua's label was right and whether the reply understood the prompt (hand labels, see understanding_rubric.md).
 
 | Source | non-Swedish replies | label right? yes / no / unclear | understood the prompt? yes / no / unclear | real switch and understood | rescued Swedish replies: n; understood yes / no / unclear |
 |---|---|---|---|---|---|
@@ -388,7 +475,37 @@ n = 150. Observed discordant rate (edited vs base): 0.180. Minimum detectable di
 | test_sampling_s3 | 25 | 24 / 1 / 0 | 7 / 16 / 2 | 7 | 15; 2 / 10 / 3 |
 | test_lora | 16 | 4 / 8 / 4 | 5 / 3 / 8 | 2 | 27; 9 / 10 / 8 |
 
+## test full: base failures by label and understanding
+
+This table splits the base model's failures by the two hand labels.
+
+| Base failure is a | understood the prompt | misread it | unclear | total |
+|---|---|---|---|---|
+| real wrong-language reply | 5 | 17 | 1 | 23 |
+| detector error (the reply is Swedish) | 2 | 3 | 4 | 9 |
+| unclear label | 0 | 0 | 1 | 1 |
+
+## test full: English prompts newly broken
+
+This table lists English prompts that got an English reply from the base model but not from the condition, with lingua's labels for the two halves.
+
+| Condition | English prompt | lingua: first half / second half |
+|---|---|---|
+| random_s2 | en090 | en / other |
+| random_s2 | en098 | en / no |
+| random_s4 | en065 | en / other |
+| sysprompt_sv | en001 | en / other |
+| sysprompt_sv | en016 | en / other |
+| sysprompt_sv | en035 | sv / sv |
+| sysprompt_sv | en069 | sv / sv |
+| sysprompt_sv | en072 | sv / sv |
+| sysprompt_sv | en079 | sv / sv |
+| sysprompt_sv | en096 | other / other |
+| lora | en096 | other / other |
+
 ## dev round 1 (128 tokens)
+
+This table shows round 1 of the dev work: the plan's eight settings at 128 tokens.
 
 Base: 88.0% Swedish (18 failures of 150); direction: fallback (fewer than 20 failures): mean(last prompt token | Swedish Wikipedia paragraph as prompt) - mean(... | English paragraph), data/langid_check.jsonl.
 
@@ -405,6 +522,8 @@ Base: 88.0% Swedish (18 failures of 150); direction: fallback (fewer than 20 fai
 
 ## dev base run, 512 vs 128 tokens
 
+This table compares the base model's dev run at 512 tokens with the 128-token run.
+
 | Measure | Value |
 |---|---|
 | failures at 128 tokens, whole-reply label (as run) | 18 of 150 |
@@ -417,7 +536,9 @@ Base: 88.0% Swedish (18 failures of 150); direction: fallback (fewer than 20 fai
 
 ## dev round 2 (512 tokens)
 
-Base: 84.7% Swedish (23 failures of 150); English dev: 100.0% English (n=50). Minimum-failures rule relaxed: False.
+This table shows round 2 of the dev work: eight settings at 512 tokens, the selection and the English check.
+
+Base: 84.7% Swedish [78.0%, 89.6%] (23 failures of 150); English dev: 100.0% English (n=50). Minimum-failures rule relaxed: False.
 
 | Setting | Swedish rate | fixed / newly broken vs base | failure languages | ppl ratio to base | eligible | Frobenius norm of change | English rate on English dev (check) |
 |---|---|---|---|---|---|---|---|
@@ -434,6 +555,8 @@ Selected: fail_L12-15_a2 (English check passed: True). Feedback budget: 17 dev e
 
 ## failure-direction diagnostics
 
+This table shows how stable the wrong-minus-Swedish direction is. The cosine compares directions from two random halves of the data (1 means identical). The AUC says how well it separates failures from Swedish replies on held-out prompts (0.5 is chance).
+
 | Failure labels | Window | split-half cosine, median (5th pct) | leave-one-out AUC | cosine with Swedish-minus-English |
 |---|---|---|---|---|
 | 512_tokens_two_halves_rule (23 vs 127) | 4-7 | 0.58 (0.39) | 0.67 | -0.17 |
@@ -447,6 +570,8 @@ Selected: fail_L12-15_a2 (English check passed: True). Feedback budget: 17 dev e
 
 ## Norwegian and Danish on the Swedish-minus-English direction
 
+This table shows where each language's Wikipedia paragraphs fall on the Swedish-minus-English direction.
+
 sv and en are the paragraphs the direction was computed from; no and da are new to it. Position of each language's mean on a scale where English is 0 and Swedish is 1.
 
 | Window | en | da | no | sv |
@@ -457,6 +582,8 @@ sv and en are the paragraphs the direction was computed from; no and da are new 
 | 16-19 | 0.00 | 0.97 | 0.96 | 1.00 |
 
 ## edit size
+
+This table shows the size of the selected edit and of the random edits. Free parameters are the numbers that define an edit.
 
 | Edit | free parameters | Frobenius norm of change | Frobenius norm of edited matrices | % of all weights changed |
 |---|---|---|---|---|
@@ -469,6 +596,8 @@ sv and en are the paragraphs the direction was computed from; no and da are new 
 
 ## pilot
 
+This table shows the pilot on 40 dev prompts that chose the model.
+
 Greedy decoding with each repo's default generation settings (for qwen25 this includes repetition_penalty=1.1; qwen35 ships none), default chat template, 128 new tokens, fp32 on MPS, first 40 Swedish dev prompts, whole-reply language label.
 
 | Model | Wrong language | Wilson 95% CI | tokens/s |
@@ -477,5 +606,7 @@ Greedy decoding with each repo's default generation settings (for qwen25 this in
 | qwen25 | 6/40 | [7.1%, 29.1%] | 283 |
 
 ## LoRA
+
+LoRA is a small add-on to the weights, trained on examples.
 
 Training examples: 139 of 150 dev prompts; trainable parameters: 4399104; dev Swedish rate after training: n/a (dev evaluation run: False).

@@ -1444,6 +1444,74 @@
      }
     }
    },
+   "english_newly_broken": {
+    "edited": [],
+    "random_s1": [],
+    "random_s2": [
+     {
+      "id": "en090",
+      "lang_first": "en",
+      "lang_second": "other"
+     },
+     {
+      "id": "en098",
+      "lang_first": "en",
+      "lang_second": "no"
+     }
+    ],
+    "random_s3": [],
+    "random_s4": [
+     {
+      "id": "en065",
+      "lang_first": "en",
+      "lang_second": "other"
+     }
+    ],
+    "random_s5": [],
+    "sysprompt_sv": [
+     {
+      "id": "en016",
+      "lang_first": "en",
+      "lang_second": "other"
+     },
+     {
+      "id": "en035",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en069",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en072",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en079",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en096",
+      "lang_first": "other",
+      "lang_second": "other"
+     }
+    ],
+    "sysprompt_empty": [],
+    "sampling_s1": [],
+    "sampling_s2": [],
+    "sampling_s3": [],
+    "lora": [
+     {
+      "id": "en096",
+      "lang_first": "other",
+      "lang_second": "other"
+     }
+    ]
+   },
    "reply_ppl_under_base": {
     "base": {
      "n_swedish_replies": 108,
@@ -1893,6 +1961,17 @@
       "no": 10,
       "unclear": 4
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 9,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 1,
+      "no/unclear": 1,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 3
     },
     "dev_base_512": {
@@ -1906,6 +1985,17 @@
       "yes": 4,
       "no": 11,
       "unclear": 8
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 10,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 1,
+      "no/unclear": 4,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
      },
      "real_switch_and_understood": 3
     },
@@ -1921,6 +2011,17 @@
       "no": 20,
       "unclear": 5
      },
+     "label_ok_by_understood": {
+      "yes/yes": 5,
+      "yes/no": 17,
+      "yes/unclear": 1,
+      "no/yes": 2,
+      "no/no": 3,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 5
     },
     "test_edited": {
@@ -1934,6 +2035,17 @@
       "yes": 10,
       "no": 19,
       "unclear": 7
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 16,
+      "yes/unclear": 1,
+      "no/yes": 5,
+      "no/no": 3,
+      "no/unclear": 5,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 1
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -1962,6 +2074,17 @@
       "no": 18,
       "unclear": 9
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 16,
+      "yes/unclear": 5,
+      "no/yes": 4,
+      "no/no": 2,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 3,
      "rescued": {
       "n": 9,
@@ -1988,6 +2111,17 @@
       "yes": 6,
       "no": 25,
       "unclear": 3
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 24,
+      "yes/unclear": 1,
+      "no/yes": 2,
+      "no/no": 1,
+      "no/unclear": 2,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -2016,6 +2150,17 @@
       "no": 20,
       "unclear": 3
      },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 17,
+      "yes/unclear": 0,
+      "no/yes": 4,
+      "no/no": 2,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 4,
      "rescued": {
       "n": 11,
@@ -2042,6 +2187,17 @@
       "yes": 5,
       "no": 16,
       "unclear": 9
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 14,
+      "yes/unclear": 4,
+      "no/yes": 1,
+      "no/no": 0,
+      "no/unclear": 5,
+      "unclear/yes": 0,
+      "unclear/no": 2,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -2070,6 +2226,17 @@
       "no": 17,
       "unclear": 8
      },
+     "label_ok_by_understood": {
+      "yes/yes": 6,
+      "yes/no": 14,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 2,
+      "no/unclear": 4,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 6,
      "rescued": {
       "n": 10,
@@ -2096,6 +2263,17 @@
       "yes": 3,
       "no": 1,
       "unclear": 12
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 0,
+      "yes/no": 0,
+      "yes/unclear": 1,
+      "no/yes": 3,
+      "no/no": 1,
+      "no/unclear": 7,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 4
      },
      "real_switch_and_understood": 0,
      "rescued": {
@@ -2124,6 +2302,17 @@
       "no": 11,
       "unclear": 6
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 10,
+      "yes/unclear": 2,
+      "no/yes": 3,
+      "no/no": 0,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 3,
      "rescued": {
       "n": 19,
@@ -2150,6 +2339,17 @@
       "yes": 5,
       "no": 20,
       "unclear": 1
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 5,
+      "yes/no": 19,
+      "yes/unclear": 1,
+      "no/yes": 0,
+      "no/no": 1,
+      "no/unclear": 0,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 5,
      "rescued": {
@@ -2178,6 +2378,17 @@
       "no": 16,
       "unclear": 0
      },
+     "label_ok_by_understood": {
+      "yes/yes": 7,
+      "yes/no": 16,
+      "yes/unclear": 0,
+      "no/yes": 0,
+      "no/no": 0,
+      "no/unclear": 0,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 7,
      "rescued": {
       "n": 15,
@@ -2205,6 +2416,17 @@
       "no": 16,
       "unclear": 2
      },
+     "label_ok_by_understood": {
+      "yes/yes": 7,
+      "yes/no": 16,
+      "yes/unclear": 1,
+      "no/yes": 0,
+      "no/no": 0,
+      "no/unclear": 1,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 7,
      "rescued": {
       "n": 14,
@@ -2231,6 +2453,17 @@
       "yes": 5,
       "no": 3,
       "unclear": 8
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 2,
+      "yes/no": 2,
+      "yes/unclear": 0,
+      "no/yes": 2,
+      "no/no": 1,
+      "no/unclear": 5,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 3
      },
      "real_switch_and_understood": 2,
      "rescued": {
@@ -3693,6 +3926,79 @@
      }
     }
    },
+   "english_newly_broken": {
+    "edited": [],
+    "random_s1": [],
+    "random_s2": [
+     {
+      "id": "en090",
+      "lang_first": "en",
+      "lang_second": "other"
+     },
+     {
+      "id": "en098",
+      "lang_first": "en",
+      "lang_second": "no"
+     }
+    ],
+    "random_s3": [],
+    "random_s4": [
+     {
+      "id": "en065",
+      "lang_first": "en",
+      "lang_second": "other"
+     }
+    ],
+    "random_s5": [],
+    "sysprompt_sv": [
+     {
+      "id": "en001",
+      "lang_first": "en",
+      "lang_second": "other"
+     },
+     {
+      "id": "en016",
+      "lang_first": "en",
+      "lang_second": "other"
+     },
+     {
+      "id": "en035",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en069",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en072",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en079",
+      "lang_first": "sv",
+      "lang_second": "sv"
+     },
+     {
+      "id": "en096",
+      "lang_first": "other",
+      "lang_second": "other"
+     }
+    ],
+    "sysprompt_empty": [],
+    "sampling_s1": [],
+    "sampling_s2": [],
+    "sampling_s3": [],
+    "lora": [
+     {
+      "id": "en096",
+      "lang_first": "other",
+      "lang_second": "other"
+     }
+    ]
+   },
    "reply_ppl_under_base": {
     "base": {
      "n_swedish_replies": 117,
@@ -4142,6 +4448,17 @@
       "no": 10,
       "unclear": 4
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 9,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 1,
+      "no/unclear": 1,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 3
     },
     "dev_base_512": {
@@ -4155,6 +4472,17 @@
       "yes": 4,
       "no": 11,
       "unclear": 8
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 10,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 1,
+      "no/unclear": 4,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
      },
      "real_switch_and_understood": 3
     },
@@ -4170,6 +4498,17 @@
       "no": 20,
       "unclear": 6
      },
+     "label_ok_by_understood": {
+      "yes/yes": 5,
+      "yes/no": 17,
+      "yes/unclear": 1,
+      "no/yes": 2,
+      "no/no": 3,
+      "no/unclear": 4,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 5
     },
     "test_edited": {
@@ -4183,6 +4522,17 @@
       "yes": 11,
       "no": 20,
       "unclear": 7
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 16,
+      "yes/unclear": 1,
+      "no/yes": 6,
+      "no/no": 4,
+      "no/unclear": 5,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 1
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -4211,6 +4561,17 @@
       "no": 18,
       "unclear": 9
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 16,
+      "yes/unclear": 5,
+      "no/yes": 4,
+      "no/no": 2,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 3,
      "rescued": {
       "n": 10,
@@ -4237,6 +4598,17 @@
       "yes": 6,
       "no": 25,
       "unclear": 3
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 24,
+      "yes/unclear": 1,
+      "no/yes": 2,
+      "no/no": 1,
+      "no/unclear": 2,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -4265,6 +4637,17 @@
       "no": 20,
       "unclear": 3
      },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 17,
+      "yes/unclear": 0,
+      "no/yes": 4,
+      "no/no": 2,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 4,
      "rescued": {
       "n": 12,
@@ -4291,6 +4674,17 @@
       "yes": 6,
       "no": 16,
       "unclear": 9
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 4,
+      "yes/no": 14,
+      "yes/unclear": 4,
+      "no/yes": 2,
+      "no/no": 0,
+      "no/unclear": 5,
+      "unclear/yes": 0,
+      "unclear/no": 2,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 4,
      "rescued": {
@@ -4319,6 +4713,17 @@
       "no": 17,
       "unclear": 9
      },
+     "label_ok_by_understood": {
+      "yes/yes": 6,
+      "yes/no": 14,
+      "yes/unclear": 3,
+      "no/yes": 1,
+      "no/no": 2,
+      "no/unclear": 5,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 6,
      "rescued": {
       "n": 11,
@@ -4345,6 +4750,17 @@
       "yes": 4,
       "no": 1,
       "unclear": 13
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 0,
+      "yes/no": 0,
+      "yes/unclear": 1,
+      "no/yes": 3,
+      "no/no": 1,
+      "no/unclear": 8,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 4
      },
      "real_switch_and_understood": 0,
      "rescued": {
@@ -4373,6 +4789,17 @@
       "no": 11,
       "unclear": 6
      },
+     "label_ok_by_understood": {
+      "yes/yes": 3,
+      "yes/no": 10,
+      "yes/unclear": 2,
+      "no/yes": 3,
+      "no/no": 0,
+      "no/unclear": 3,
+      "unclear/yes": 0,
+      "unclear/no": 1,
+      "unclear/unclear": 1
+     },
      "real_switch_and_understood": 3,
      "rescued": {
       "n": 20,
@@ -4399,6 +4826,17 @@
       "yes": 6,
       "no": 20,
       "unclear": 1
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 6,
+      "yes/no": 19,
+      "yes/unclear": 1,
+      "no/yes": 0,
+      "no/no": 1,
+      "no/unclear": 0,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
      },
      "real_switch_and_understood": 6,
      "rescued": {
@@ -4427,6 +4865,17 @@
       "no": 16,
       "unclear": 0
      },
+     "label_ok_by_understood": {
+      "yes/yes": 8,
+      "yes/no": 16,
+      "yes/unclear": 0,
+      "no/yes": 0,
+      "no/no": 0,
+      "no/unclear": 0,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 8,
      "rescued": {
       "n": 16,
@@ -4454,6 +4903,17 @@
       "no": 16,
       "unclear": 2
      },
+     "label_ok_by_understood": {
+      "yes/yes": 7,
+      "yes/no": 16,
+      "yes/unclear": 1,
+      "no/yes": 0,
+      "no/no": 0,
+      "no/unclear": 1,
+      "unclear/yes": 0,
+      "unclear/no": 0,
+      "unclear/unclear": 0
+     },
      "real_switch_and_understood": 7,
      "rescued": {
       "n": 15,
@@ -4480,6 +4940,17 @@
       "yes": 5,
       "no": 3,
       "unclear": 8
+     },
+     "label_ok_by_understood": {
+      "yes/yes": 2,
+      "yes/no": 2,
+      "yes/unclear": 0,
+      "no/yes": 2,
+      "no/no": 1,
+      "no/unclear": 5,
+      "unclear/yes": 1,
+      "unclear/no": 0,
+      "unclear/unclear": 3
      },
      "real_switch_and_understood": 2,
      "rescued": {
@@ -6109,6 +6580,10 @@
    ]
   }
  },
+ "dev512_base_swedish_wilson95": [
+  0.7804201682766676,
+  0.8956004622947993
+ ],
  "dev512_churn": {
   "svEn_L12-15_a-1": {
    "fixed": 3,
